@@ -1,10 +1,10 @@
 {
   "context": {
-    "scan_id": "b3a91ee0-6d01-45d9-ac57-8f047c7baebb",
+    "scan_id": "142a8c5c-27b7-4756-907a-571bdc516533",
     "repo_path": "A:\\S7\\Bosch-Hack\\targets\\goof",
     "repo_name": "goof",
     "commit_hash": "add14ba59e98240d9e00a235dd7d42cd61ae9912",
-    "scan_timestamp": "2026-11-23T10:43:07.385140Z",
+    "scan_timestamp": "2026-11-23T11:15:37.345980Z",
     "tool_versions": {
       "syft": "1.57.2"
     }
@@ -16013,8 +16013,8 @@
           ],
           "minimist": [
             "<root> \u2192 typeorm@0.2.24 \u2192 mkdirp@0.5.5 \u2192 minimist@1.2.0",
-            "<root> \u2192 tap@11.1.5 \u2192 coveralls@3.0.9 \u2192 minimist@1.2.0",
-            "<root> \u2192 tap@11.1.5 \u2192 mkdirp@0.5.1 \u2192 minimist@1.2.0"
+            "<root> \u2192 browserify@13.3.0 \u2192 subarg@1.0.0 \u2192 minimist@1.2.0",
+            "<root> \u2192 tap@11.1.5 \u2192 coveralls@3.0.9 \u2192 minimist@1.2.0"
           ],
           "lodash": [
             "<root> \u2192 snyk@1.278.1 \u2192 lodash@4.17.15",

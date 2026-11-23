@@ -87,3 +87,4 @@ Or open `reports/dashboard.html` in any web browser.
   - 577 unique SBOM software components
   - 981 dependency graph nodes, 1,479 edges
   - Transitive verification: `<root> ➜ hbs@4.0.4 ➜ handlebars@4.0.14`
+

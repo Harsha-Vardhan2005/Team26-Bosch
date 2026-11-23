@@ -72,3 +72,4 @@ def test_handlebars_transitive_path():
     assert len(path) >= 3, "Handlebars path must be transitive (>=3 nodes)"
     assert path[0] == "<root>"
     assert any("hbs@" in node for node in path), "Handlebars must be traced through hbs"
+

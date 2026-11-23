@@ -27,13 +27,13 @@ from guardian.models import AgentResult, ScanContext, ScanResult
 class Orchestrator:
     """Run the full Day-1 analysis pipeline on a repository."""
 
-    def __init__(self) -> None:
+    def __init__(self, groq_key: Optional[str] = None) -> None:
         self.agents = [
             DiscoveryAgent(),
             GraphAgent(),
             VulnerabilityAgent(),
             ChangeDetectionAgent(),
-            AnalystAgent(),
+            AnalystAgent(api_key=groq_key),
         ]
 
     def run(
@@ -43,7 +43,11 @@ class Orchestrator:
         sbom_path: Optional[str] = None,
         grype_path: Optional[str] = None,
         output_path: Optional[str] = None,
+        groq_key: Optional[str] = None,
     ) -> ScanResult:
+        if groq_key:
+            # Reinitialize analyst agent with the explicit key if provided
+            self.agents[-1] = AnalystAgent(api_key=groq_key)
         repo_path = str(Path(repo_path).resolve())
 
         context = ScanContext(

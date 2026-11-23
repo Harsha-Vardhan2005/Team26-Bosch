@@ -20,9 +20,17 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, PlainTextResponse, StreamingResponse
 from pydantic import BaseModel
 
-from guardian.ai import query_groq
+from guardian.ai import GroqClient, query_groq
 from guardian.orchestrator import Orchestrator
 from guardian.report_generator import generate_markdown_report
+
+# Load .env if present
+env_path = Path(".env")
+if env_path.exists():
+    for line in env_path.read_text(encoding="utf-8").splitlines():
+        if line.startswith("GROQ_API_KEY="):
+            os.environ["GROQ_API_KEY"] = line.split("=", 1)[1].strip().strip('"').strip("'")
+            break
 
 app = FastAPI(
     title="Software Supply Chain Guardian — Live Command Center",
@@ -221,3 +229,4 @@ Keep your answers concise, structured (using bolding and code blocks), and groun
 
     response = query_groq(prompt=prompt, system=system_prompt, max_tokens=600)
     return {"reply": response}
+

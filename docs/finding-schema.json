@@ -1,0 +1,150 @@
+{
+  "$defs": {
+    "FindingType": {
+      "description": "Category of a risk finding.",
+      "enum": [
+        "vulnerability",
+        "typosquat",
+        "install_script",
+        "unpinned_version",
+        "lockfile_drift",
+        "untrusted_image",
+        "unsafe_ci",
+        "suspicious_change"
+      ],
+      "title": "FindingType",
+      "type": "string"
+    },
+    "RiskLevel": {
+      "description": "Risk level assigned by the analyst agent.",
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low",
+        "informational",
+        "unassessed"
+      ],
+      "title": "RiskLevel",
+      "type": "string"
+    },
+    "Severity": {
+      "description": "Severity as reported by the scanner tool (not our own assessment).",
+      "enum": [
+        "Critical",
+        "High",
+        "Medium",
+        "Low",
+        "Negligible",
+        "Unknown"
+      ],
+      "title": "Severity",
+      "type": "string"
+    }
+  },
+  "description": "A single risk finding: vulnerability, suspicious change, or anomaly.\n\nOne Finding per (component_name, component_version, canonical vuln).\nCVE/GHSA aliases for the same vulnerability are merged into advisory_ids.\n``severity`` comes from the scanner; ``risk_level`` is set later by the\nanalyst agent.",
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "finding_type": {
+      "$ref": "#/$defs/FindingType"
+    },
+    "component_name": {
+      "title": "Component Name",
+      "type": "string"
+    },
+    "component_version": {
+      "title": "Component Version",
+      "type": "string"
+    },
+    "ecosystem": {
+      "title": "Ecosystem",
+      "type": "string"
+    },
+    "dependency_path": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Dependency Path",
+      "type": "array"
+    },
+    "evidence": {
+      "additionalProperties": true,
+      "title": "Evidence",
+      "type": "object"
+    },
+    "severity": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Severity"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "risk_level": {
+      "$ref": "#/$defs/RiskLevel",
+      "default": "unassessed"
+    },
+    "source_tool": {
+      "default": "",
+      "title": "Source Tool",
+      "type": "string"
+    },
+    "advisory_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Advisory Ids",
+      "type": "array"
+    },
+    "fixed_version": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Fixed Version"
+    },
+    "description": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Description"
+    },
+    "confidence": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Confidence"
+    }
+  },
+  "required": [
+    "finding_type",
+    "component_name",
+    "component_version",
+    "ecosystem"
+  ],
+  "title": "Finding",
+  "type": "object"
+}

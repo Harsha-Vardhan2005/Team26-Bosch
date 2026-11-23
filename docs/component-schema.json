@@ -1,0 +1,96 @@
+{
+  "description": "A discovered software component in the repository inventory.",
+  "properties": {
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "version": {
+      "title": "Version",
+      "type": "string"
+    },
+    "ecosystem": {
+      "title": "Ecosystem",
+      "type": "string"
+    },
+    "purl": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Purl"
+    },
+    "component_type": {
+      "default": "library",
+      "title": "Component Type",
+      "type": "string"
+    },
+    "is_direct": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Is Direct"
+    },
+    "source_file": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Source File"
+    },
+    "supplier": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Supplier"
+    },
+    "licenses": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Licenses",
+      "type": "array"
+    },
+    "description": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Description"
+    }
+  },
+  "required": [
+    "name",
+    "version",
+    "ecosystem"
+  ],
+  "title": "Component",
+  "type": "object"
+}

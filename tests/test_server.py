@@ -36,3 +36,4 @@ def test_server_markdown_report_endpoint():
     response = client.get("/api/report/markdown")
     assert response.status_code == 200
     assert "Software Supply Chain Guardian" in response.text
+

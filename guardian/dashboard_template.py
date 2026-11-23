@@ -776,6 +776,24 @@ _TEMPLATE = r"""<!DOCTYPE html>
   </div>
 </div>
 
+<!-- Modal 3: AI Vulnerability Risk & Remediation Inspector -->
+<div class="modal-overlay" id="modal-vuln-inspect">
+  <div class="modal-box" style="width: 780px;">
+    <div class="modal-header">
+      <div class="modal-title" id="mvi-title">🤖 AI Risk & Remediation Inspector</div>
+      <button class="btn" onclick="closeVulnInspectModal()">✕</button>
+    </div>
+    <div class="modal-body" id="mvi-body"></div>
+    <div class="modal-footer" style="justify-content: space-between;">
+      <button class="btn btn-accent" id="mvi-ask-copilot-btn">💬 Ask AI Copilot More</button>
+      <div style="display: flex; gap: 8px;">
+        <button class="btn" id="mvi-trace-btn">🕸️ Trace on Graph</button>
+        <button class="btn btn-primary" onclick="closeVulnInspectModal()">Done</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script>
 // Data injected by Guardian
 const COMPONENTS = __COMPONENTS__;
@@ -813,7 +831,10 @@ document.getElementById('top-critical-body').innerHTML = topCrit.slice(0, 4).map
     <td><span class="tag tag-direct">Direct</span></td>
     <td>${(item.advisories||[]).map(a => `<code style="font-size:11px;">${a}</code>`).join(' ')}</td>
     <td><strong style="color:var(--success)">${item.fix ? 'v' + item.fix : 'No direct patch'}</strong></td>
-    <td><button class="btn" style="padding:3px 8px; font-size:11px;" onclick="traceOnGraph('${item.package}')">Trace on Graph</button></td>
+    <td style="white-space:nowrap;">
+      <button class="btn" style="padding:3px 7px; font-size:11px;" onclick="traceOnGraph('${item.package}')">Trace</button>
+      <button class="btn btn-primary" style="padding:3px 8px; font-size:11px; margin-left:4px;" onclick="inspectFindingRisk('${(item.advisories||[])[0] || item.package}')">🤖 AI Fix & Risk</button>
+    </td>
   </tr>
 `).join('');
 
@@ -880,13 +901,112 @@ function renderVulnsTable() {
         <td style="font-size:12px; font-family:monospace; color:var(--text-muted)">${advList}</td>
         <td><strong style="color:var(--success)">${f.fix_version ? 'v' + f.fix_version : '—'}</strong></td>
         <td style="font-family:monospace; font-size:11px; max-width:240px; overflow:hidden; text-overflow:ellipsis;" title="${pathStr}">${pathStr}</td>
-        <td><button class="btn" style="padding:3px 8px; font-size:11px;" onclick="traceOnGraph('${f.component_name}')">Trace</button></td>
+        <td style="white-space:nowrap;">
+          <button class="btn" style="padding:3px 7px; font-size:11px;" onclick="traceOnGraph('${f.component_name}')">Trace</button>
+          <button class="btn btn-primary" style="padding:3px 8px; font-size:11px; margin-left:4px;" onclick="inspectFindingRisk('${f.id}')">🤖 AI Fix & Risk</button>
+        </td>
       </tr>
     `;
   }).join('');
 }
 renderVulnsTable();
 document.getElementById('vulns-search').addEventListener('input', renderVulnsTable);
+
+function inspectFindingRisk(vulnId) {
+  const f = FINDINGS.find(item => item.id === vulnId || (item.aliases && item.aliases.includes(vulnId)) || item.component_name === vulnId) || FINDINGS[0];
+  if (!f) return;
+
+  const isDirect = f.reachability_path ? f.reachability_path.length <= 2 : (f.risk_level === 'critical');
+  const pathStr = f.reachability_path ? f.reachability_path.join(' ➔ ') : (isDirect ? `<root> ➔ ${f.component_name}` : `<root> ➔ [parent] ➔ ${f.component_name}`);
+  const parentPkg = (f.reachability_path && f.reachability_path.length > 2) ? f.reachability_path[1] : null;
+
+  let fixSnippet = '';
+  if (isDirect) {
+    const fixVer = f.fix_version ? `${f.fix_version}` : 'latest';
+    fixSnippet = `
+      <div style="background:#0a0e17; border:1px solid #1e293b; border-radius:8px; padding:12px; margin-top:10px;">
+        <div style="font-size:11px; color:#10b981; font-weight:700; text-transform:uppercase;">⚡ Exact Developer Remediation (Direct Dependency):</div>
+        <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Because this package is listed directly in <code>package.json</code>, upgrade it directly to the patched version:</p>
+        <pre style="color:#38bdf8; font-family:monospace; margin-top:6px; font-size:12px; background:#070a10; padding:8px; border-radius:6px;">npm install ${f.component_name}@^${fixVer} --save-exact</pre>
+      </div>
+    `;
+  } else {
+    fixSnippet = `
+      <div style="background:#0a0e17; border:1px solid #1e293b; border-radius:8px; padding:12px; margin-top:10px;">
+        <div style="font-size:11px; color:#f59e0b; font-weight:700; text-transform:uppercase;">⚠️ Transitive Root Attribution (Do NOT edit ${f.component_name} directly):</div>
+        <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">This vulnerability is introduced transitively through direct parent <strong>${parentPkg || 'intermediate package'}</strong>. Editing it directly will not update the parent's locked subtree.</p>
+        <pre style="color:#38bdf8; font-family:monospace; margin-top:6px; font-size:12px; background:#070a10; padding:8px; border-radius:6px;"># Recommended Option: Bump the direct parent package
+npm install ${parentPkg ? parentPkg.split('@')[0] : 'parent'}@latest --save
+
+# Alternative: Force transitive resolution override in package.json (npm 8+)
+"overrides": {
+  "${f.component_name}": "${f.fix_version ? '^' + f.fix_version : 'latest'}"
+}</pre>
+      </div>
+    `;
+  }
+
+  const modalBody = `
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:14px;">
+      <div>
+        <h3 style="font-size:18px; font-weight:700; color:#fff;">${f.component_name} <span style="font-size:13px; color:var(--text-muted);">v${f.component_version}</span></h3>
+        <div style="margin-top:6px; display:flex; gap:6px; align-items:center; flex-wrap:wrap;">
+          <span class="tag ${f.severity === 'Critical' ? 'tag-critical' : f.severity === 'High' ? 'tag-high' : 'tag-medium'}">${f.severity} Scanner Severity</span>
+          <span class="tag ${f.risk_level === 'critical' ? 'tag-critical' : f.risk_level === 'high' ? 'tag-high' : 'tag-medium'}">Guardian: ${f.risk_level || 'medium'} Risk</span>
+          <span class="tag ${isDirect ? 'tag-direct' : 'tag-trans'}">${isDirect ? 'Direct Attack Surface' : 'Transitive Indirect'}</span>
+        </div>
+      </div>
+      <div style="text-align:right;">
+        <div style="font-size:11px; color:var(--text-muted); font-weight:700;">ADVISORY</div>
+        <code style="font-size:12px; font-weight:700; color:#38bdf8;">${f.id}</code>
+      </div>
+    </div>
+
+    <div style="background:#0d1322; border:1px solid var(--border); border-radius:8px; padding:12px 14px; margin-bottom:12px;">
+      <div style="font-size:11px; color:var(--text-muted); font-weight:700; text-transform:uppercase;">🕸️ Reachability Path (Entrypoint Analysis):</div>
+      <div style="font-family:monospace; font-size:12px; color:#a5f3fc; margin-top:4px; word-break:break-all;">${pathStr}</div>
+      <div style="font-size:12px; color:var(--text-muted); margin-top:6px;">
+        ${isDirect 
+          ? '⭐ <strong>Direct Entrypoint:</strong> The application code directly consumes this module. Exploits can be invoked with zero dependency traversal.' 
+          : `🔍 <strong>Indirect Transitive:</strong> The application reaches this module via parent dependency <strong>${parentPkg || 'parent'}</strong>.`}
+      </div>
+    </div>
+
+    <div style="background:#0d1322; border:1px solid var(--border); border-radius:8px; padding:12px 14px; margin-bottom:12px;">
+      <div style="font-size:11px; color:var(--text-muted); font-weight:700; text-transform:uppercase;">⚖️ Threat & Impact Analysis (AI Security Team):</div>
+      <p style="font-size:12.5px; color:var(--text); margin-top:6px; line-height:1.5;">
+        ${f.description || (f.aliases && f.aliases.length ? 'Associated security advisories: ' + f.aliases.join(', ') : 'Vulnerability flagged in ' + f.component_name + '.')}
+      </p>
+      <div style="margin-top:8px; font-size:12px; color:var(--text-muted);">
+        <strong>Fix Status:</strong> ${f.fix_version ? `<span style="color:#10b981; font-weight:700;">Patch available in v${f.fix_version}</span>` : '<span style="color:#f59e0b;">No direct upstream fix; apply overrides or migrate library.</span>'}
+      </div>
+    </div>
+
+    ${fixSnippet}
+  `;
+
+  document.getElementById('mvi-title').innerHTML = `🤖 AI Risk & Fix: <code>${f.component_name}</code> (${f.id})`;
+  document.getElementById('mvi-body').innerHTML = modalBody;
+
+  const copilotBtn = document.getElementById('mvi-ask-copilot-btn');
+  copilotBtn.onclick = () => {
+    closeVulnInspectModal();
+    switchTab('copilot');
+    askCopilot(`Please provide an in-depth security analysis and step-by-step remediation plan for ${f.component_name}@${f.component_version} (${f.id}). How can an attacker exploit it and how do we patch it safely?`);
+  };
+
+  const traceBtn = document.getElementById('mvi-trace-btn');
+  traceBtn.onclick = () => {
+    closeVulnInspectModal();
+    traceOnGraph(f.component_name);
+  };
+
+  document.getElementById('modal-vuln-inspect').classList.add('active');
+}
+
+function closeVulnInspectModal() {
+  document.getElementById('modal-vuln-inspect').classList.remove('active');
+}
 
 function traceOnGraph(pkgName) {
   switchTab('graph');

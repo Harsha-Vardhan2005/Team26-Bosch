@@ -32,7 +32,16 @@ def graph_to_dict(graph: Optional[nx.DiGraph]) -> dict:
     return {"nodes": nodes, "edges": edges}
 
 
-def render_dashboard(scan_result: ScanResult, graph: Optional[nx.DiGraph]) -> str:
+def render_dashboard(scan_result: ScanResult, graph: Optional[nx.DiGraph] = None) -> str:
+    if graph is None:
+        try:
+            from guardian.agents.graph import GraphAgent
+            shared = {"sbom_path": "reports/goof.sbom.cdx.json", "components": scan_result.components}
+            GraphAgent().run(scan_result.context, shared)
+            graph = shared.get("dependency_graph")
+        except Exception:
+            pass
+
     components_json = json.dumps([c.model_dump(mode="json") for c in scan_result.components], default=str)
     elements_json = json.dumps([e.model_dump(mode="json") for e in scan_result.elements], default=str)
     findings_json = json.dumps([f.model_dump(mode="json") for f in scan_result.findings], default=str)
@@ -858,7 +867,13 @@ function switchTab(tabId) {
   }
 
   if (tabId === 'graph') {
-    setTimeout(initGraph, 100);
+    setTimeout(() => {
+      initGraph();
+      if (cy) {
+        cy.resize();
+        cy.fit();
+      }
+    }, 80);
   }
 }
 
@@ -1012,18 +1027,26 @@ function traceOnGraph(pkgName) {
   switchTab('graph');
   document.getElementById('graph-search').value = pkgName;
   setTimeout(() => {
+    initGraph();
     if (cy) {
+      cy.resize();
       cy.elements().removeClass('highlighted path-edge dimmed');
-      const matched = cy.nodes().filter(n => (n.data('label') || '').toLowerCase().includes(pkgName.toLowerCase()));
+      const cleanPkg = pkgName.split('@')[0].toLowerCase();
+      const matched = cy.nodes().filter(n => {
+        const lbl = (n.data('label') || '').toLowerCase();
+        const nid = (n.data('id') || '').toLowerCase();
+        return lbl.includes(cleanPkg) || nid.includes(cleanPkg);
+      });
       if (matched.length > 0) {
         cy.elements().addClass('dimmed');
         matched.forEach(n => {
           n.removeClass('dimmed').addClass('highlighted');
           highlightNode(n.id());
         });
+        cy.fit(matched, 120);
       }
     }
-  }, 100);
+  }, 120);
 }
 
 // Components View
@@ -1100,18 +1123,61 @@ let cy = null;
 window._graphInit = false;
 
 function initGraph() {
-  if (window._graphInit) return;
+  if (window._graphInit && cy) {
+    cy.resize();
+    return;
+  }
   window._graphInit = true;
 
   const elements = [];
-  GRAPH.nodes.forEach(n => {
-    elements.push({
-      data: { id: n.id, label: n.name || n.id, is_direct: n.is_direct }
+  if (GRAPH && GRAPH.nodes && GRAPH.nodes.length > 0) {
+    GRAPH.nodes.forEach(n => {
+      elements.push({
+        data: { id: n.id, label: n.name || n.id, is_direct: n.is_direct }
+      });
     });
-  });
-  GRAPH.edges.forEach(e => {
-    elements.push({ data: { source: e.source, target: e.target } });
-  });
+    GRAPH.edges.forEach(e => {
+      elements.push({ data: { source: e.source, target: e.target } });
+    });
+  } else {
+    // Robust client-side fallback if GRAPH was empty
+    const nodeSet = new Set();
+    const edgeSet = new Set();
+    nodeSet.add('<root>');
+    elements.push({ data: { id: '<root>', label: `${CONTEXT.repo_name || 'goof'} (root)`, is_direct: true } });
+
+    FINDINGS.forEach(f => {
+      if (f.reachability_path && f.reachability_path.length > 0) {
+        for (let i = 0; i < f.reachability_path.length; i++) {
+          const nid = f.reachability_path[i];
+          if (!nodeSet.has(nid)) {
+            nodeSet.add(nid);
+            elements.push({ data: { id: nid, label: nid, is_direct: i <= 1 } });
+          }
+          if (i > 0) {
+            const edgeKey = `${f.reachability_path[i-1]}->${nid}`;
+            if (!edgeSet.has(edgeKey)) {
+              edgeSet.add(edgeKey);
+              elements.push({ data: { source: f.reachability_path[i-1], target: nid } });
+            }
+          }
+        }
+      }
+    });
+
+    COMPONENTS.filter(c => c.is_direct).forEach(c => {
+      const cid = `${c.name}@${c.version}`;
+      if (!nodeSet.has(cid)) {
+        nodeSet.add(cid);
+        elements.push({ data: { id: cid, label: c.name, is_direct: true } });
+      }
+      const eKey = `<root>->${cid}`;
+      if (!edgeSet.has(eKey)) {
+        edgeSet.add(eKey);
+        elements.push({ data: { source: '<root>', target: cid } });
+      }
+    });
+  }
 
   cy = cytoscape({
     container: document.getElementById('graph-canvas'),

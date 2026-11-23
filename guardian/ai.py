@@ -85,3 +85,16 @@ class GroqClient:
                 continue
 
         raise RuntimeError(f"All Groq models failed. Last error: {last_err}")
+
+
+def query_groq(prompt: str, system: str = "", max_tokens: int = 1500) -> str:
+    """Convenience helper to query Groq LLM."""
+    client = GroqClient()
+    if not client.is_available:
+        return "Groq API key not configured. Please set GROQ_API_KEY in your environment or .env file."
+    try:
+        return client.chat(system_prompt=system, user_prompt=prompt, max_tokens=max_tokens)
+    except Exception as e:
+        return f"Groq inference error: {e}"
+
+

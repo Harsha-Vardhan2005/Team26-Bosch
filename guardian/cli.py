@@ -55,6 +55,28 @@ def build_parser() -> argparse.ArgumentParser:
         default=None,
         help="Path to write the JSON report.",
     )
+
+    serve = sub.add_parser(
+        "serve",
+        help="Start the interactive Guardian Live Demo Server and UI Command Center.",
+    )
+    serve.add_argument(
+        "--port",
+        type=int,
+        default=8000,
+        help="Port to bind the web server (default: 8000).",
+    )
+    serve.add_argument(
+        "--host",
+        type=str,
+        default="127.0.0.1",
+        help="Host address to bind (default: 127.0.0.1).",
+    )
+    serve.add_argument(
+        "--open",
+        action="store_true",
+        help="Automatically open the web dashboard in your default browser.",
+    )
     return parser
 
 
@@ -64,6 +86,17 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.command is None:
         parser.print_help()
+        return 0
+
+    if args.command == "serve":
+        import uvicorn
+        import webbrowser
+        url = f"http://{args.host}:{args.port}"
+        print(f"[guardian] 🚀 Starting Guardian Live Command Center at {url}")
+        print(f"[guardian] Interactive Live UI, Real-time Scan SSE, and AI Copilot active.")
+        if args.open:
+            webbrowser.open(url)
+        uvicorn.run("guardian.server:app", host=args.host, port=args.port, reload=False)
         return 0
 
     if args.command == "scan":

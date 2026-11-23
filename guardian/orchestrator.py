@@ -163,26 +163,6 @@ def _write_report(scan_result: ScanResult, path: str) -> None:
     write_markdown_report(scan_result, str(md_path))
 
 
-def _graph_to_json(graph: Optional[nx.DiGraph]) -> dict:
-    if graph is None:
-        return {"nodes": [], "edges": []}
-
-    nodes = []
-    for node_id, attrs in graph.nodes(data=True):
-        nodes.append({
-            "id": node_id,
-            "name": attrs.get("name", node_id),
-            "version": attrs.get("version", ""),
-            "is_direct": attrs.get("is_direct", False),
-        })
-
-    edges = []
-    for src, tgt in graph.edges():
-        edges.append({"source": src, "target": tgt})
-
-    return {"nodes": nodes, "edges": edges}
-
-
 def _write_dashboard(
     scan_result: ScanResult,
     graph: Optional[nx.DiGraph],

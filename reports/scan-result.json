@@ -1,10 +1,10 @@
 {
   "context": {
-    "scan_id": "855a24ad-504c-4d4f-9723-ac6cb89305de",
+    "scan_id": "228f1e13-ce5e-4eab-acad-42a959cf2f1d",
     "repo_path": "A:\\S7\\Bosch-Hack\\targets\\goof",
     "repo_name": "goof",
     "commit_hash": "add14ba59e98240d9e00a235dd7d42cd61ae9912",
-    "scan_timestamp": "2026-11-23T13:00:19.487331Z",
+    "scan_timestamp": "2026-11-23T13:10:57.701138Z",
     "tool_versions": {
       "syft": "1.57.2"
     }
@@ -7439,7 +7439,7 @@
   ],
   "findings": [
     {
-      "id": "2b8ca68c-5a73-4d44-8fab-59798e7fa9be",
+      "id": "5a6f4510-904d-436b-a49a-e26657c4f5f0",
       "finding_type": "vulnerability",
       "component_name": "jquery",
       "component_version": "2.2.4",
@@ -7466,7 +7466,7 @@
       "confidence": null
     },
     {
-      "id": "f39b45cf-bb28-4437-90ca-51bd3ac782d4",
+      "id": "4fe10914-6835-4a76-a3b6-0538367a1c7f",
       "finding_type": "vulnerability",
       "component_name": "jquery",
       "component_version": "2.2.4",
@@ -7493,7 +7493,7 @@
       "confidence": null
     },
     {
-      "id": "31d499c9-5873-46f3-aa4a-be0050a49ee1",
+      "id": "a6aa4e4d-3b52-46a5-ab35-a25fb035bdd7",
       "finding_type": "vulnerability",
       "component_name": "y18n",
       "component_version": "3.2.1",
@@ -7522,7 +7522,7 @@
       "confidence": null
     },
     {
-      "id": "c79c73ca-08f6-4a67-98b3-4929f3d0e9f4",
+      "id": "365d9d6e-489f-4822-9026-a9037c949b46",
       "finding_type": "vulnerability",
       "component_name": "y18n",
       "component_version": "4.0.0",
@@ -7551,7 +7551,7 @@
       "confidence": null
     },
     {
-      "id": "191660d7-4ed6-4e47-96cc-bc17a77c9281",
+      "id": "b80f1932-4572-40f9-a376-f04f04c178de",
       "finding_type": "vulnerability",
       "component_name": "jquery",
       "component_version": "2.2.4",
@@ -7578,7 +7578,7 @@
       "confidence": null
     },
     {
-      "id": "f1e3b812-c28a-4428-ba04-20fda34707c2",
+      "id": "1f72c4f8-7fec-42b6-9f5d-e4f841c01ba7",
       "finding_type": "vulnerability",
       "component_name": "ejs",
       "component_version": "0.8.8",
@@ -7606,7 +7606,7 @@
       "confidence": null
     },
     {
-      "id": "58e23eba-66a8-4c45-b54c-a431d331634e",
+      "id": "7138be21-c72e-488d-8147-34e7b0b31df7",
       "finding_type": "vulnerability",
       "component_name": "ejs",
       "component_version": "1.0.0",
@@ -7633,7 +7633,7 @@
       "confidence": null
     },
     {
-      "id": "a61be49d-c934-4102-b611-8ca0fdbe49b7",
+      "id": "0de683a7-db44-46dd-82cf-8263480d6b79",
       "finding_type": "vulnerability",
       "component_name": "st",
       "component_version": "0.2.4",
@@ -7660,7 +7660,7 @@
       "confidence": null
     },
     {
-      "id": "025ece93-eb23-4f69-852b-1606d6d62db4",
+      "id": "38283c42-fd97-4af8-8b37-13145355e0fa",
       "finding_type": "vulnerability",
       "component_name": "mongoose",
       "component_version": "4.2.4",
@@ -7687,7 +7687,7 @@
       "confidence": null
     },
     {
-      "id": "8dce05d9-65a9-4cb9-8cb5-2f108ea05d9c",
+      "id": "b2848d35-dd5b-42bc-ba66-44508ed9ab0e",
       "finding_type": "vulnerability",
       "component_name": "typeorm",
       "component_version": "0.2.24",
@@ -7714,7 +7714,7 @@
       "confidence": null
     },
     {
-      "id": "fcc990fa-a59d-4b66-9ce6-fbf168b7d58a",
+      "id": "fba151f4-05fc-4293-a106-8ccda5e440b4",
       "finding_type": "vulnerability",
       "component_name": "decode-uri-component",
       "component_version": "0.2.0",
@@ -7738,7 +7738,7 @@
       "confidence": null
     },
     {
-      "id": "9bf48466-e7c4-4e89-ac40-1bc564a08636",
+      "id": "c4f136f0-3d94-48a8-bfb8-80527c20e60a",
       "finding_type": "vulnerability",
       "component_name": "jquery",
       "component_version": "2.2.4",
@@ -7765,7 +7765,7 @@
       "confidence": null
     },
     {
-      "id": "81e0b7d6-e051-4b8d-93ab-2c28198660b2",
+      "id": "655e10d9-4810-431d-93b8-863988720142",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.10",
@@ -7793,7 +7793,7 @@
       "confidence": null
     },
     {
-      "id": "1b198d3f-0b4d-405e-bdeb-bd365bc35a46",
+      "id": "97ae1199-4e22-47b6-9a83-695e0f12c296",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.4",
@@ -7820,7 +7820,7 @@
       "confidence": null
     },
     {
-      "id": "c631d62b-ad13-4be4-8324-6e600acab012",
+      "id": "37ada7c3-212e-433b-a6e3-51c01e43f2b8",
       "finding_type": "vulnerability",
       "component_name": "qs",
       "component_version": "2.2.4",
@@ -7848,7 +7848,7 @@
       "confidence": null
     },
     {
-      "id": "fa965870-3f52-4169-ba21-2482dbcdd41f",
+      "id": "5094c8bd-506c-452e-9094-b0af86b7caad",
       "finding_type": "vulnerability",
       "component_name": "qs",
       "component_version": "2.4.2",
@@ -7876,7 +7876,7 @@
       "confidence": null
     },
     {
-      "id": "869117e9-4069-4044-9c90-af8936184e20",
+      "id": "8d3321a6-9527-477c-93f8-e6bbdaf6f09d",
       "finding_type": "vulnerability",
       "component_name": "qs",
       "component_version": "6.5.2",
@@ -7906,7 +7906,7 @@
       "confidence": null
     },
     {
-      "id": "0c4464e1-0b35-42f6-8ce5-21a6ddb59dc4",
+      "id": "a26e3565-f383-452c-9fd6-08272d02496e",
       "finding_type": "vulnerability",
       "component_name": "moment",
       "component_version": "2.15.1",
@@ -7933,7 +7933,7 @@
       "confidence": null
     },
     {
-      "id": "18860193-2c56-4086-aaaf-8e0ca3fab93d",
+      "id": "5526a8b4-1a8a-404a-ba25-3e25756e8443",
       "finding_type": "vulnerability",
       "component_name": "adm-zip",
       "component_version": "0.4.7",
@@ -7960,7 +7960,7 @@
       "confidence": null
     },
     {
-      "id": "b955676c-0456-4def-b13d-33bf946c760e",
+      "id": "42d319e5-53bc-4cca-b701-2544f84404fe",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -7988,7 +7988,7 @@
       "confidence": null
     },
     {
-      "id": "08e29803-1808-4f3f-a55b-3c54dfa295a7",
+      "id": "fef14b5a-e9f9-4d3b-a434-f72c5abebe61",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -8016,7 +8016,7 @@
       "confidence": null
     },
     {
-      "id": "c3e93b16-929b-4519-9f30-5ff062243173",
+      "id": "c87e5974-718d-4843-9cf7-b336c84f8370",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -8044,7 +8044,7 @@
       "confidence": null
     },
     {
-      "id": "d8207e96-1694-40be-931b-f4be7c9f8dbe",
+      "id": "dede4cbe-679f-4158-a746-461a8b555134",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -8072,7 +8072,7 @@
       "confidence": null
     },
     {
-      "id": "8d995d09-1faf-4f1b-a0c9-1097dea83bfb",
+      "id": "6760d184-1810-46da-96f2-9648230e817f",
       "finding_type": "vulnerability",
       "component_name": "mongoose",
       "component_version": "4.2.4",
@@ -8099,7 +8099,7 @@
       "confidence": null
     },
     {
-      "id": "88bd4313-a46d-4f06-ba44-90d32dc17a4f",
+      "id": "55689b26-7af6-46b8-906c-99d911aba5be",
       "finding_type": "vulnerability",
       "component_name": "ejs",
       "component_version": "0.8.8",
@@ -8127,7 +8127,7 @@
       "confidence": null
     },
     {
-      "id": "9a8bd73d-de69-4e72-979f-0bdbc4226449",
+      "id": "f04de131-4cc5-409b-9271-946294d96c2e",
       "finding_type": "vulnerability",
       "component_name": "ejs",
       "component_version": "1.0.0",
@@ -8154,7 +8154,7 @@
       "confidence": null
     },
     {
-      "id": "3eb393c5-8f31-42f0-8060-c293a01ab597",
+      "id": "c1bae8fb-6fe0-4758-873f-befa8114151a",
       "finding_type": "vulnerability",
       "component_name": "ms",
       "component_version": "0.6.2",
@@ -8182,7 +8182,7 @@
       "confidence": null
     },
     {
-      "id": "def59e97-6f81-42ab-956c-f49523740d90",
+      "id": "d83f6b89-482f-4fe6-ae3d-ba0cd4b626d7",
       "finding_type": "vulnerability",
       "component_name": "semver",
       "component_version": "1.1.4",
@@ -8210,7 +8210,7 @@
       "confidence": null
     },
     {
-      "id": "c4f85256-3346-441d-b82f-1181882589d1",
+      "id": "c084d0af-dff0-4125-bfa1-af6d5af5ebdc",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.10",
@@ -8238,7 +8238,7 @@
       "confidence": null
     },
     {
-      "id": "e598b2e0-0078-4d4c-9fce-31a368b808a7",
+      "id": "c0c226c7-e203-430b-a0e2-c48b3ee62a8d",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.4",
@@ -8265,7 +8265,7 @@
       "confidence": null
     },
     {
-      "id": "830126d2-9d4e-4264-896a-512bcd483da0",
+      "id": "92fdac48-5915-441d-bac5-4724bde8ef6b",
       "finding_type": "vulnerability",
       "component_name": "express-fileupload",
       "component_version": "0.0.5",
@@ -8292,7 +8292,7 @@
       "confidence": null
     },
     {
-      "id": "263c1887-3785-4be6-832c-36d8bc0b972d",
+      "id": "1bac664f-1a72-4f5b-a23e-02392c81162f",
       "finding_type": "vulnerability",
       "component_name": "minimist",
       "component_version": "0.0.10",
@@ -8322,7 +8322,7 @@
       "confidence": null
     },
     {
-      "id": "5833a4da-8969-4094-9df7-5da0c140d7b0",
+      "id": "b0f7a139-6d81-4ef2-abc0-894d0b2954e2",
       "finding_type": "vulnerability",
       "component_name": "minimist",
       "component_version": "0.0.8",
@@ -8351,7 +8351,7 @@
       "confidence": null
     },
     {
-      "id": "ead83dec-f2eb-4adb-a063-11fa514dc4ca",
+      "id": "0369beb4-d333-4355-b74c-cbd7e48c7a52",
       "finding_type": "vulnerability",
       "component_name": "minimist",
       "component_version": "1.2.0",
@@ -8380,7 +8380,7 @@
       "confidence": null
     },
     {
-      "id": "7a358422-87aa-4c9a-9e59-928b4fbe9e98",
+      "id": "99b53fce-16df-4f7c-a7db-ea918475fb4c",
       "finding_type": "vulnerability",
       "component_name": "minimist",
       "component_version": "1.2.5",
@@ -8409,7 +8409,7 @@
       "confidence": null
     },
     {
-      "id": "6d307c2a-4596-4158-a467-f14648b86f54",
+      "id": "45f72a10-db98-44b5-bbc5-5e6dc111bf27",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -8437,7 +8437,7 @@
       "confidence": null
     },
     {
-      "id": "3a3a5693-653c-473b-891a-3e8766ac05ae",
+      "id": "d517a3ff-bccb-4795-82ff-a0eba6c408d2",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -8465,7 +8465,7 @@
       "confidence": null
     },
     {
-      "id": "b51ce5e5-d4f7-47a5-b891-295dcc118b7d",
+      "id": "39ec7402-1d04-48e3-8be2-18e81321af8d",
       "finding_type": "vulnerability",
       "component_name": "underscore",
       "component_version": "1.9.1",
@@ -8493,7 +8493,7 @@
       "confidence": null
     },
     {
-      "id": "d20ed486-fad8-4f3f-b0e1-6502fdb9a920",
+      "id": "821b5426-54f5-467b-a47d-bea272badb55",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.10",
@@ -8521,7 +8521,7 @@
       "confidence": null
     },
     {
-      "id": "ad5a8685-aae1-42e4-8c62-77f05401200f",
+      "id": "73fdea06-bf4b-4406-bf88-09234b7682d4",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.4",
@@ -8548,7 +8548,7 @@
       "confidence": null
     },
     {
-      "id": "1ccad07c-0f55-4713-b33e-7fadff95fcf8",
+      "id": "4804a26f-32fa-4a50-805f-f26adcfba905",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.10",
@@ -8576,7 +8576,7 @@
       "confidence": null
     },
     {
-      "id": "b0fe70cf-831a-4da7-9818-1d7e70e985a6",
+      "id": "78669517-e2d2-4492-9d21-63561e26386a",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.4",
@@ -8603,7 +8603,7 @@
       "confidence": null
     },
     {
-      "id": "554a053c-295d-4f7f-8165-1b7af06b10d5",
+      "id": "2f863d5e-b5c9-48be-855b-6ce56f484683",
       "finding_type": "vulnerability",
       "component_name": "json-schema",
       "component_version": "0.2.3",
@@ -8635,7 +8635,7 @@
       "confidence": null
     },
     {
-      "id": "3601719a-10fb-4773-b1e7-803316524525",
+      "id": "fefd9cb9-6880-46c5-bc57-24e44072d611",
       "finding_type": "vulnerability",
       "component_name": "mixin-deep",
       "component_version": "1.3.1",
@@ -8659,7 +8659,7 @@
       "confidence": null
     },
     {
-      "id": "8a902802-bae6-40e6-8f44-93e34fda2d26",
+      "id": "64d2da62-851f-4a89-a9e3-a165fe99e12c",
       "finding_type": "vulnerability",
       "component_name": "mongoose",
       "component_version": "4.2.4",
@@ -8686,7 +8686,7 @@
       "confidence": null
     },
     {
-      "id": "8898de1d-7338-43d3-85dd-31ea559bcddd",
+      "id": "9bc662cb-da10-48c4-bed6-fa0a527a1549",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -8714,7 +8714,7 @@
       "confidence": null
     },
     {
-      "id": "2f8167c5-e92e-4086-a9fe-630c2e578986",
+      "id": "d21a8700-e4dc-4f79-b82e-f405da934c47",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -8742,7 +8742,7 @@
       "confidence": null
     },
     {
-      "id": "814884d1-094f-438e-8cc3-f3d3117690ea",
+      "id": "43a78fe3-8f7d-4274-84df-775dfcb9a912",
       "finding_type": "vulnerability",
       "component_name": "moment",
       "component_version": "2.15.1",
@@ -8769,7 +8769,7 @@
       "confidence": null
     },
     {
-      "id": "23211bec-7076-4285-8509-80eb6231e183",
+      "id": "e16afd23-b094-4589-807b-0747185e7159",
       "finding_type": "vulnerability",
       "component_name": "ini",
       "component_version": "1.1.0",
@@ -8797,7 +8797,7 @@
       "confidence": null
     },
     {
-      "id": "96e381e9-1064-4f3f-aec8-186d1f1a43fc",
+      "id": "c20d0701-bf2f-41d2-83e2-321f3ed22b88",
       "finding_type": "vulnerability",
       "component_name": "ini",
       "component_version": "1.3.5",
@@ -8826,7 +8826,7 @@
       "confidence": null
     },
     {
-      "id": "c47915d7-02a6-4040-8de2-d03619758cf4",
+      "id": "e82929bc-5e2f-4425-93e4-c5239ad56877",
       "finding_type": "vulnerability",
       "component_name": "ansi-regex",
       "component_version": "3.0.0",
@@ -8855,7 +8855,7 @@
       "confidence": null
     },
     {
-      "id": "967dccf0-69cc-4ee4-b918-7b652a752507",
+      "id": "ec5a0ea2-cea2-44b8-acc2-0e6c893eac75",
       "finding_type": "vulnerability",
       "component_name": "ansi-regex",
       "component_version": "4.1.0",
@@ -8884,7 +8884,7 @@
       "confidence": null
     },
     {
-      "id": "280884b1-1bec-45dd-aa89-dcfdf2c73e7e",
+      "id": "90707d5c-6f18-4a17-a594-a72b9eaa6c39",
       "finding_type": "vulnerability",
       "component_name": "ansi-regex",
       "component_version": "5.0.0",
@@ -8913,7 +8913,7 @@
       "confidence": null
     },
     {
-      "id": "0e8ff084-ddf8-4bc8-8c9d-3c2e16019c86",
+      "id": "1037f59c-fb83-4d01-a0c4-8a5db6088b16",
       "finding_type": "vulnerability",
       "component_name": "async",
       "component_version": "2.6.3",
@@ -8942,7 +8942,7 @@
       "confidence": null
     },
     {
-      "id": "497b5976-c384-441f-af6e-6ebe8aa16dfd",
+      "id": "5466cd74-6de1-4787-9c6e-ad135a703efa",
       "finding_type": "vulnerability",
       "component_name": "dicer",
       "component_version": "0.3.0",
@@ -8972,7 +8972,7 @@
       "confidence": null
     },
     {
-      "id": "4fa586fe-a8e9-4364-bf07-b225da041ab1",
+      "id": "4b6c4a74-2a79-4d38-b00a-766bf0320616",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -9000,7 +9000,7 @@
       "confidence": null
     },
     {
-      "id": "1e143d73-108a-4408-b863-78363a374ae1",
+      "id": "7da1b0ca-f623-4ca3-bdc0-549095c0202c",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -9028,7 +9028,7 @@
       "confidence": null
     },
     {
-      "id": "baf7d29c-5243-4a75-ab40-75b6a3aba9cd",
+      "id": "5a8c5ae3-7162-4037-98ac-1ec5b9e832f5",
       "finding_type": "vulnerability",
       "component_name": "set-value",
       "component_version": "0.4.3",
@@ -9052,7 +9052,7 @@
       "confidence": null
     },
     {
-      "id": "bc9cf8f9-e6c5-4464-8655-5cacf93c9103",
+      "id": "04886471-91e7-41fa-897e-c4db32b7185b",
       "finding_type": "vulnerability",
       "component_name": "set-value",
       "component_version": "2.0.0",
@@ -9076,7 +9076,7 @@
       "confidence": null
     },
     {
-      "id": "ee3659a4-0773-4ffb-9642-d012a8a81090",
+      "id": "9006394e-4f65-4804-89b5-bdd847e7be71",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.10",
@@ -9104,7 +9104,7 @@
       "confidence": null
     },
     {
-      "id": "848bdf7d-7e21-4ceb-ad37-71eddbaa8c98",
+      "id": "e332ae18-f552-4c72-a15b-8ac43dabbc2b",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.21",
@@ -9132,7 +9132,7 @@
       "confidence": null
     },
     {
-      "id": "04780200-460a-45b4-bb2e-f34b7d8ddb41",
+      "id": "14c5ac51-497a-47ec-9322-2b1dc75a5178",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.4",
@@ -9159,7 +9159,7 @@
       "confidence": null
     },
     {
-      "id": "5302b599-4abc-47e6-b6e8-8ff3ae22ac1c",
+      "id": "8058a37b-a4bd-4f6e-876d-93f67f4933e4",
       "finding_type": "vulnerability",
       "component_name": "marked",
       "component_version": "0.3.5",
@@ -9186,7 +9186,7 @@
       "confidence": null
     },
     {
-      "id": "6c4684e6-2fd8-4ede-9ef5-c646fe34e95b",
+      "id": "9ec4fed9-e5f2-4b4a-92e4-9a54217b8ad0",
       "finding_type": "vulnerability",
       "component_name": "bson",
       "component_version": "0.4.23",
@@ -9214,7 +9214,7 @@
       "confidence": null
     },
     {
-      "id": "009f34f6-8307-4d86-abbb-c8b527e88f4d",
+      "id": "927dec8a-22d3-4a72-a283-a3cea62d5698",
       "finding_type": "vulnerability",
       "component_name": "marked",
       "component_version": "0.3.5",
@@ -9241,7 +9241,7 @@
       "confidence": null
     },
     {
-      "id": "73150c45-a18d-475f-9664-d63185f4752e",
+      "id": "1a647b43-d4b6-4f00-96d3-2e6526b21bfe",
       "finding_type": "vulnerability",
       "component_name": "semver",
       "component_version": "5.5.0",
@@ -9269,7 +9269,7 @@
       "confidence": null
     },
     {
-      "id": "e4452277-379e-4f82-b306-aaad4c0d4440",
+      "id": "a88fe96e-3d12-47fb-b0f1-d92c3956e76b",
       "finding_type": "vulnerability",
       "component_name": "semver",
       "component_version": "5.7.0",
@@ -9298,7 +9298,7 @@
       "confidence": null
     },
     {
-      "id": "42d0dff4-634f-4a52-ba71-113ebe104cab",
+      "id": "e505c964-59d5-42db-9af7-9afaa4354b0e",
       "finding_type": "vulnerability",
       "component_name": "typeorm",
       "component_version": "0.2.24",
@@ -9325,7 +9325,7 @@
       "confidence": null
     },
     {
-      "id": "1bc50f9a-ed66-47eb-9fa4-02dfb66732da",
+      "id": "168a4943-b41b-4e57-8644-ab7ef166e7d4",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -9353,7 +9353,7 @@
       "confidence": null
     },
     {
-      "id": "53b92ce6-85f4-4f5f-9824-d6e03bd6330b",
+      "id": "ba618d51-905b-4f03-9624-e4b41a933e75",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -9381,7 +9381,7 @@
       "confidence": null
     },
     {
-      "id": "64ad73ab-097f-4c97-9e3f-964a9925c9ce",
+      "id": "26e6e761-5375-4e1b-a758-1f71f1b62e3c",
       "finding_type": "vulnerability",
       "component_name": "hosted-git-info",
       "component_version": "2.6.0",
@@ -9410,7 +9410,7 @@
       "confidence": null
     },
     {
-      "id": "ce80c3f6-9aa7-403e-afff-f1f8f92ca425",
+      "id": "69ed67cc-2d0b-4d11-9401-13ac79c4db90",
       "finding_type": "vulnerability",
       "component_name": "qs",
       "component_version": "2.2.4",
@@ -9438,7 +9438,7 @@
       "confidence": null
     },
     {
-      "id": "755e1bfe-5c44-41e3-8530-326e0e2e792c",
+      "id": "8c13ec14-a51b-4ef6-9060-8452dee3babc",
       "finding_type": "vulnerability",
       "component_name": "qs",
       "component_version": "2.4.2",
@@ -9466,7 +9466,7 @@
       "confidence": null
     },
     {
-      "id": "a8431f92-4479-4658-98fe-98e8de3e3cd0",
+      "id": "f820ceb5-3a24-434a-bf7a-72f0cd23659f",
       "finding_type": "vulnerability",
       "component_name": "kind-of",
       "component_version": "6.0.2",
@@ -9496,7 +9496,7 @@
       "confidence": null
     },
     {
-      "id": "7cb2afd2-5805-46d8-a120-9a19df0e4254",
+      "id": "c7bc7369-c7a1-430e-8d2c-6354311d2ef0",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.10",
@@ -9524,7 +9524,7 @@
       "confidence": null
     },
     {
-      "id": "cbb38fd9-39b4-4ec5-91d8-abfe31301689",
+      "id": "858caa97-dcb0-4517-9808-e9a67e0b508e",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.4",
@@ -9551,7 +9551,7 @@
       "confidence": null
     },
     {
-      "id": "ad982779-9d37-49b7-b362-d1c1340933e9",
+      "id": "00b9461b-8619-4484-b8cd-eb1351521f59",
       "finding_type": "vulnerability",
       "component_name": "minimatch",
       "component_version": "3.0.4",
@@ -9579,7 +9579,7 @@
       "confidence": null
     },
     {
-      "id": "6406f76c-569a-4910-b7cf-5fdc9e8a0d8a",
+      "id": "9ed85c50-f5cb-4925-9c3a-9eaca7518825",
       "finding_type": "vulnerability",
       "component_name": "ejs",
       "component_version": "0.8.8",
@@ -9607,7 +9607,7 @@
       "confidence": null
     },
     {
-      "id": "00eb933d-a9b2-447c-b672-60808ad8553e",
+      "id": "701db67b-b267-48a2-a0ae-14a3895d8236",
       "finding_type": "vulnerability",
       "component_name": "ejs",
       "component_version": "1.0.0",
@@ -9634,7 +9634,7 @@
       "confidence": null
     },
     {
-      "id": "32e1c5e1-31e0-44a2-9f70-731bc23ffc7e",
+      "id": "8368b35c-6e42-4888-b7cd-24659ac84cdb",
       "finding_type": "vulnerability",
       "component_name": "form-data",
       "component_version": "2.3.3",
@@ -9664,7 +9664,7 @@
       "confidence": null
     },
     {
-      "id": "73e447f0-1855-4ae0-87c2-3b3b48dfdd0e",
+      "id": "e1640481-7116-408f-ad36-d791616e590c",
       "finding_type": "vulnerability",
       "component_name": "debug",
       "component_version": "2.2.0",
@@ -9692,7 +9692,7 @@
       "confidence": null
     },
     {
-      "id": "185c099e-628d-4886-aa2d-60957abeadc0",
+      "id": "ce744e65-9bb6-41b8-8f33-493be609fc57",
       "finding_type": "vulnerability",
       "component_name": "set-value",
       "component_version": "0.4.3",
@@ -9716,7 +9716,7 @@
       "confidence": null
     },
     {
-      "id": "991617e8-0d2d-46c7-bdea-7697ff90abd5",
+      "id": "52669d96-e89f-4c6c-9cfd-9b4c10b2f7b2",
       "finding_type": "vulnerability",
       "component_name": "set-value",
       "component_version": "2.0.0",
@@ -9740,7 +9740,7 @@
       "confidence": null
     },
     {
-      "id": "ebcc2187-1126-4fd1-b9e8-62c791a93135",
+      "id": "89169d86-653d-4b49-896a-172ee93183b5",
       "finding_type": "vulnerability",
       "component_name": "mime",
       "component_version": "1.2.11",
@@ -9768,7 +9768,7 @@
       "confidence": null
     },
     {
-      "id": "75c87217-56b0-4e39-9e46-65954d7fe627",
+      "id": "dba56829-2f00-4d18-84ed-30cd5e6fdd66",
       "finding_type": "vulnerability",
       "component_name": "mime",
       "component_version": "1.3.4",
@@ -9797,7 +9797,7 @@
       "confidence": null
     },
     {
-      "id": "6cc3e134-da51-4173-9f61-9250d32ad83d",
+      "id": "fe61a00f-c7e9-4795-96f2-961b1f1e6434",
       "finding_type": "vulnerability",
       "component_name": "tough-cookie",
       "component_version": "2.4.3",
@@ -9827,7 +9827,7 @@
       "confidence": null
     },
     {
-      "id": "fcb54db1-b625-45e2-a181-2a6576842fdf",
+      "id": "177d992c-18db-4115-a4b3-29240dcf66d4",
       "finding_type": "vulnerability",
       "component_name": "mongoose",
       "component_version": "4.2.4",
@@ -9854,7 +9854,7 @@
       "confidence": null
     },
     {
-      "id": "ee32d5ac-ed49-4ad0-b214-22c7f07b0f6e",
+      "id": "1c6499be-488e-49f8-bc05-fe90a7ee439a",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.4",
@@ -9881,7 +9881,7 @@
       "confidence": null
     },
     {
-      "id": "f79543cc-53da-42a4-ac1b-1f095eb96057",
+      "id": "f859580c-f6cd-445c-8f23-90d6face2738",
       "finding_type": "vulnerability",
       "component_name": "marked",
       "component_version": "0.3.5",
@@ -9908,7 +9908,7 @@
       "confidence": null
     },
     {
-      "id": "52cdb50b-6e36-4dbd-8c98-40652351705d",
+      "id": "1c5cf034-93fd-4b8a-b3bd-7752b3f03a6c",
       "finding_type": "vulnerability",
       "component_name": "ajv",
       "component_version": "6.10.2",
@@ -9939,7 +9939,7 @@
       "confidence": null
     },
     {
-      "id": "b25e10cd-91a7-47eb-9b34-d65aac35ce71",
+      "id": "2ccd1369-ff29-4190-9592-f0c06690e2ac",
       "finding_type": "vulnerability",
       "component_name": "form-data",
       "component_version": "2.3.3",
@@ -9969,7 +9969,7 @@
       "confidence": null
     },
     {
-      "id": "7ed007ef-b1c6-437a-a45a-ab570ce60334",
+      "id": "7c032026-3121-434d-af1d-946b391ab6bb",
       "finding_type": "vulnerability",
       "component_name": "fresh",
       "component_version": "0.2.4",
@@ -9997,7 +9997,7 @@
       "confidence": null
     },
     {
-      "id": "851bb618-4b62-4f80-8d66-99551003e65a",
+      "id": "0593fa3b-3513-4636-941c-799bdee109a4",
       "finding_type": "vulnerability",
       "component_name": "mongoose",
       "component_version": "4.2.4",
@@ -10024,7 +10024,7 @@
       "confidence": null
     },
     {
-      "id": "909b9e09-8628-443e-876b-d91805301bab",
+      "id": "8811567e-1eb1-4553-8be1-6bd78a9e9499",
       "finding_type": "vulnerability",
       "component_name": "path-parse",
       "component_version": "1.0.5",
@@ -10053,7 +10053,7 @@
       "confidence": null
     },
     {
-      "id": "1909fc95-1677-4f2a-afef-749fbe09a0ff",
+      "id": "a2bc6120-b339-430d-9f6b-b572a77cd82b",
       "finding_type": "vulnerability",
       "component_name": "bl",
       "component_version": "2.2.0",
@@ -10081,7 +10081,7 @@
       "confidence": null
     },
     {
-      "id": "a899fce0-9ac6-4189-8b0d-fdab1d13479a",
+      "id": "375a34c9-4807-42dd-86dc-41ad6c45958f",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.10",
@@ -10109,7 +10109,7 @@
       "confidence": null
     },
     {
-      "id": "bb2ede84-d83f-4267-bec3-79ef9d1f94a3",
+      "id": "be823999-6d4a-44e5-ad47-d77d4d3e621f",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.4",
@@ -10136,7 +10136,7 @@
       "confidence": null
     },
     {
-      "id": "4c84a08a-4788-42f5-9829-6d809cd9a44b",
+      "id": "907b7ccd-cd7b-4061-acd1-2860d7b4e657",
       "finding_type": "vulnerability",
       "component_name": "braces",
       "component_version": "2.3.2",
@@ -10165,7 +10165,7 @@
       "confidence": null
     },
     {
-      "id": "ebc6c9cf-71d5-4423-b625-5d7bffa851ba",
+      "id": "908ffe77-5b81-40c6-a976-fb08259bcaf1",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.10",
@@ -10193,7 +10193,7 @@
       "confidence": null
     },
     {
-      "id": "6541b15d-19e6-444e-a8b8-08cd7c03e697",
+      "id": "f8b7b227-aada-4812-9e0d-6fb6e805588e",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.21",
@@ -10221,7 +10221,7 @@
       "confidence": null
     },
     {
-      "id": "820586ea-0b67-4b70-a5a8-7a839416d672",
+      "id": "1fad2264-302b-4133-93fa-f4c547e037b8",
       "finding_type": "vulnerability",
       "component_name": "lodash",
       "component_version": "4.17.4",
@@ -10248,7 +10248,7 @@
       "confidence": null
     },
     {
-      "id": "ba2eea91-4855-4676-b665-19fc71899884",
+      "id": "034badd0-10e9-439d-952c-c16366d1598b",
       "finding_type": "vulnerability",
       "component_name": "express-fileupload",
       "component_version": "0.0.5",
@@ -10275,7 +10275,7 @@
       "confidence": null
     },
     {
-      "id": "767cd399-8f43-4f7a-b87e-f3cdbc5dfeca",
+      "id": "071a22b6-dc66-46f1-b4d4-f0ff4ac3b595",
       "finding_type": "vulnerability",
       "component_name": "minimist",
       "component_version": "0.0.10",
@@ -10305,7 +10305,7 @@
       "confidence": null
     },
     {
-      "id": "2bded230-c1bd-4e68-b144-5f75ceb823be",
+      "id": "731c7d31-e5ce-4673-871b-2279cbbb9333",
       "finding_type": "vulnerability",
       "component_name": "minimist",
       "component_version": "0.0.8",
@@ -10334,7 +10334,7 @@
       "confidence": null
     },
     {
-      "id": "349df1e0-da98-41bc-91ee-31ae3ee9388c",
+      "id": "0d72acb0-ac3d-4005-b975-9d15bcfe4a2c",
       "finding_type": "vulnerability",
       "component_name": "minimist",
       "component_version": "1.2.0",
@@ -10363,7 +10363,7 @@
       "confidence": null
     },
     {
-      "id": "f4dffaea-1aee-4425-881e-dbb3eabc9cf7",
+      "id": "1f39743b-e176-4a37-8aea-e20bd25f2c04",
       "finding_type": "vulnerability",
       "component_name": "negotiator",
       "component_version": "0.2.8",
@@ -10391,7 +10391,7 @@
       "confidence": null
     },
     {
-      "id": "eb4770e5-df3a-4019-9ff2-fc5067252b11",
+      "id": "e6bdcf42-cb47-4d59-8db6-2ca46599ef4b",
       "finding_type": "vulnerability",
       "component_name": "negotiator",
       "component_version": "0.4.9",
@@ -10420,20 +10420,20 @@
       "confidence": null
     },
     {
-      "id": "d1d7d554-05f2-46a8-bcd7-ae894c76d233",
+      "id": "5aa177ba-5a96-4d28-9281-5f776607f794",
       "finding_type": "vulnerability",
       "component_name": "negotiator",
       "component_version": "0.5.3",
       "ecosystem": "npm",
       "dependency_path": [
         "<root>",
-        "express@4.12.4",
-        "accepts@1.2.13",
+        "errorhandler@1.2.0",
+        "accepts@1.1.4",
         "negotiator@0.4.9"
       ],
       "evidence": {
         "is_direct": false,
-        "root_dependency": "express@4.12.4",
+        "root_dependency": "errorhandler@1.2.0",
         "advisories_count": 2,
         "scanner": "anchore/grype"
       },
@@ -10449,7 +10449,7 @@
       "confidence": null
     },
     {
-      "id": "b1648e1a-a6d5-48f0-af62-01a1ca4099c4",
+      "id": "cdbc5009-2cff-40cb-988d-b2890685df53",
       "finding_type": "vulnerability",
       "component_name": "dustjs-linkedin",
       "component_version": "2.5.0",
@@ -10476,7 +10476,7 @@
       "confidence": null
     },
     {
-      "id": "9e2dc4bf-e3c7-497f-86f6-6180453c6294",
+      "id": "ae6f0bbd-c524-43cb-a203-483ac257b309",
       "finding_type": "vulnerability",
       "component_name": "debug",
       "component_version": "2.2.0",
@@ -10504,7 +10504,7 @@
       "confidence": null
     },
     {
-      "id": "190143b6-8f5e-4b7e-9d7e-28085c0ae370",
+      "id": "262520f2-915f-4d1b-aca9-5e0c195914e1",
       "finding_type": "vulnerability",
       "component_name": "debug",
       "component_version": "4.1.1",
@@ -10532,7 +10532,7 @@
       "confidence": null
     },
     {
-      "id": "ac5e1f0d-4387-43f8-9e02-df43e074f249",
+      "id": "84d53afc-90fa-4392-8cc5-2e9f7fd2c3c6",
       "finding_type": "vulnerability",
       "component_name": "validator",
       "component_version": "13.5.2",
@@ -10559,7 +10559,7 @@
       "confidence": null
     },
     {
-      "id": "915e7471-c002-407f-877e-3e237aeacf8b",
+      "id": "b2db4a04-d74a-4b19-8704-db5332fe4a10",
       "finding_type": "vulnerability",
       "component_name": "mpath",
       "component_version": "0.1.1",
@@ -10587,7 +10587,7 @@
       "confidence": null
     },
     {
-      "id": "ce710ce7-b04e-4010-8329-c432bf3fdafa",
+      "id": "5141f829-898f-4595-af20-c5b32cff44bd",
       "finding_type": "vulnerability",
       "component_name": "marked",
       "component_version": "0.3.5",
@@ -10614,7 +10614,7 @@
       "confidence": null
     },
     {
-      "id": "ea5b0d8f-4278-4ad9-8aeb-01e2d5094a5b",
+      "id": "fb912c03-0768-45c4-9f01-f09ae208fe8e",
       "finding_type": "vulnerability",
       "component_name": "mpath",
       "component_version": "0.1.1",
@@ -10642,7 +10642,7 @@
       "confidence": null
     },
     {
-      "id": "2a7c19ed-137a-4856-b809-eb5651aa9984",
+      "id": "c362046b-9266-491e-a982-70de044e9b94",
       "finding_type": "vulnerability",
       "component_name": "marked",
       "component_version": "0.3.5",
@@ -10669,7 +10669,7 @@
       "confidence": null
     },
     {
-      "id": "e5e4ce79-5118-448e-9cfb-a411c296f50d",
+      "id": "319cd364-56e3-4ff2-b02e-f3fbb9c5bfe5",
       "finding_type": "vulnerability",
       "component_name": "underscore",
       "component_version": "1.9.1",
@@ -10697,7 +10697,7 @@
       "confidence": null
     },
     {
-      "id": "bf98f0f4-d73e-4ae5-b4e5-260876605bcc",
+      "id": "d9e11eda-e8ea-43f6-a5a8-32f6e2fb822f",
       "finding_type": "vulnerability",
       "component_name": "body-parser",
       "component_version": "1.9.0",
@@ -10724,7 +10724,7 @@
       "confidence": null
     },
     {
-      "id": "21432c4c-30dd-4094-9df0-fecc503819d5",
+      "id": "78a206ae-2a13-4a46-9644-9bf46044d4b9",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -10752,7 +10752,7 @@
       "confidence": null
     },
     {
-      "id": "93975407-caef-4301-8923-116dc9f399c0",
+      "id": "ba8a726b-f007-4663-aa02-2342063d26df",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -10780,7 +10780,7 @@
       "confidence": null
     },
     {
-      "id": "832cd0ff-7f84-461c-b085-f29ffd70e01e",
+      "id": "2a049573-ac21-4e6a-93ff-2b7a6e0565b7",
       "finding_type": "vulnerability",
       "component_name": "sha.js",
       "component_version": "2.4.11",
@@ -10808,7 +10808,7 @@
       "confidence": null
     },
     {
-      "id": "df306ad4-eb64-47da-89f2-cdf3d98e03ff",
+      "id": "0ec864f5-44b6-4b6c-b5cf-c04f2a5394f9",
       "finding_type": "vulnerability",
       "component_name": "micromatch",
       "component_version": "3.1.10",
@@ -10837,7 +10837,7 @@
       "confidence": null
     },
     {
-      "id": "024278c4-40f1-4889-a2d1-34176f87c80f",
+      "id": "640c4081-d8c6-4dda-a784-0d553cb155b0",
       "finding_type": "vulnerability",
       "component_name": "xml2js",
       "component_version": "0.4.23",
@@ -10865,7 +10865,7 @@
       "confidence": null
     },
     {
-      "id": "b1b422fd-0e4d-4bfc-a589-5d2de8001095",
+      "id": "cd10e505-5761-481a-ad39-09e55f5f383b",
       "finding_type": "vulnerability",
       "component_name": "highlight.js",
       "component_version": "9.18.1",
@@ -10894,7 +10894,7 @@
       "confidence": null
     },
     {
-      "id": "5c8d62b6-ff79-4aef-b5e4-098519d08e22",
+      "id": "f93af726-7a93-4688-81d3-02ad9f28310b",
       "finding_type": "vulnerability",
       "component_name": "path-to-regexp",
       "component_version": "0.1.3",
@@ -10922,7 +10922,7 @@
       "confidence": null
     },
     {
-      "id": "fe6c87b9-5f2b-4189-97e3-4e8a6177ff81",
+      "id": "58f9f7b4-b094-4d1f-a07e-a2449c04578d",
       "finding_type": "vulnerability",
       "component_name": "ejs",
       "component_version": "0.8.8",
@@ -10950,7 +10950,7 @@
       "confidence": null
     },
     {
-      "id": "eea20659-8ed9-4e10-9b7a-5b520de92e2e",
+      "id": "06f4c227-ccd0-46a5-a703-e06126eb33ec",
       "finding_type": "vulnerability",
       "component_name": "ejs",
       "component_version": "1.0.0",
@@ -10977,7 +10977,7 @@
       "confidence": null
     },
     {
-      "id": "3edbc021-fee4-4c23-af9b-0a6074e8062c",
+      "id": "7c1809c4-7766-49d1-89f1-396b39c82901",
       "finding_type": "vulnerability",
       "component_name": "cross-spawn",
       "component_version": "4.0.2",
@@ -11006,7 +11006,7 @@
       "confidence": null
     },
     {
-      "id": "7b476d01-7e2f-41ab-8c74-fc3d3cac5b39",
+      "id": "02663cdd-e18d-4954-898c-eb3e8bb1a78d",
       "finding_type": "vulnerability",
       "component_name": "cross-spawn",
       "component_version": "5.1.0",
@@ -11038,7 +11038,7 @@
       "confidence": null
     },
     {
-      "id": "379a127b-2940-4786-97e8-1ab032a228fd",
+      "id": "edf891a5-2ed3-4c68-ad57-e291b3d4ef0a",
       "finding_type": "vulnerability",
       "component_name": "validator",
       "component_version": "13.5.2",
@@ -11065,7 +11065,7 @@
       "confidence": null
     },
     {
-      "id": "0fde2590-3d92-43c5-9233-b592c4b3aea8",
+      "id": "a10d3867-f97d-4403-8aef-77ce58d03686",
       "finding_type": "vulnerability",
       "component_name": "adm-zip",
       "component_version": "0.4.7",
@@ -11092,7 +11092,7 @@
       "confidence": null
     },
     {
-      "id": "3cc005bf-6109-415b-a883-d4582755612b",
+      "id": "4d3b2eba-2aba-4b15-845c-71f9b18052d1",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -11120,7 +11120,7 @@
       "confidence": null
     },
     {
-      "id": "d66920d9-d1fc-4497-9fc6-6c1c739e55e1",
+      "id": "706eefc3-24bb-4fe8-8b3e-86e2e85c5972",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -11148,7 +11148,7 @@
       "confidence": null
     },
     {
-      "id": "b4f9eb1a-7bc7-40ea-ab4a-ed62a8e9d14a",
+      "id": "c04d37fa-ad74-4ce4-8ce5-dc63672eca84",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -11176,7 +11176,7 @@
       "confidence": null
     },
     {
-      "id": "176cdba5-133c-4bc6-afa4-4b83d18b4bef",
+      "id": "2c09a21c-fe43-4cb3-8c25-55179ad73021",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -11204,7 +11204,7 @@
       "confidence": null
     },
     {
-      "id": "7ce7357f-98cd-4d03-b38a-36e2df8e5971",
+      "id": "da7c0fa6-f3f7-4507-9d33-9c637df2ee9d",
       "finding_type": "vulnerability",
       "component_name": "path-to-regexp",
       "component_version": "0.1.3",
@@ -11232,7 +11232,7 @@
       "confidence": null
     },
     {
-      "id": "6924bcae-b987-4ab5-9523-3568e0b4024d",
+      "id": "96ac07b4-4317-4525-8e5d-b0856638cf45",
       "finding_type": "vulnerability",
       "component_name": "path-to-regexp",
       "component_version": "0.1.3",
@@ -11260,7 +11260,7 @@
       "confidence": null
     },
     {
-      "id": "def9492c-41bf-4562-8065-46e7af0b8f4f",
+      "id": "46db886a-ff19-4a98-a61a-b10fc4c7ef84",
       "finding_type": "vulnerability",
       "component_name": "kerberos",
       "component_version": "0.0.24",
@@ -11290,7 +11290,7 @@
       "confidence": null
     },
     {
-      "id": "e97ce047-e0ed-4ac1-8567-d71ff5ae663d",
+      "id": "ca1fed28-0ac4-4c11-9ec7-a80d19ddb3a9",
       "finding_type": "vulnerability",
       "component_name": "ms",
       "component_version": "0.6.2",
@@ -11318,7 +11318,7 @@
       "confidence": null
     },
     {
-      "id": "35604992-5221-4447-a45c-31a9a1e74a60",
+      "id": "2c56bdc9-a194-4cc7-af47-e391023de346",
       "finding_type": "vulnerability",
       "component_name": "ms",
       "component_version": "0.7.1",
@@ -11346,7 +11346,7 @@
       "confidence": null
     },
     {
-      "id": "c803203f-fbaa-4802-9db0-7a8645dd0bca",
+      "id": "4068cb55-cee3-497a-9f42-5e0b3adfc6cd",
       "finding_type": "vulnerability",
       "component_name": "ms",
       "component_version": "0.7.3",
@@ -11373,7 +11373,7 @@
       "confidence": null
     },
     {
-      "id": "42a8bb4b-bdaa-46de-a747-23392f44c672",
+      "id": "aef2cdbe-bfb1-49d7-832b-b4ff9b29208c",
       "finding_type": "vulnerability",
       "component_name": "mquery",
       "component_version": "1.6.3",
@@ -11401,7 +11401,7 @@
       "confidence": null
     },
     {
-      "id": "b5a07b25-173c-466d-96d5-ee4052e58b53",
+      "id": "4994b3d5-bd61-4fc7-a764-63ccdfd958a0",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -11429,7 +11429,7 @@
       "confidence": null
     },
     {
-      "id": "d12c90de-bca7-44e1-aa0c-0d3d8d032c54",
+      "id": "c9a58d1e-d5b5-47ce-8201-4da15fd96771",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -11457,7 +11457,7 @@
       "confidence": null
     },
     {
-      "id": "c4641004-5217-4d85-9e5a-86e6102eedd3",
+      "id": "adcebaf7-8a9e-4908-a40b-f15bbc8d178e",
       "finding_type": "vulnerability",
       "component_name": "mongoose",
       "component_version": "4.2.4",
@@ -11484,7 +11484,7 @@
       "confidence": null
     },
     {
-      "id": "ade1e845-efbc-4156-9ab9-51c4213d9d53",
+      "id": "3da5e186-1fdc-4bba-bc90-5f915448e22c",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -11512,7 +11512,7 @@
       "confidence": null
     },
     {
-      "id": "b5fd199e-34b3-4e92-8870-324cbb87d476",
+      "id": "3093860c-c313-4346-bb6e-c04dcc626e3e",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -11540,7 +11540,7 @@
       "confidence": null
     },
     {
-      "id": "485add7f-8d47-4125-a3b1-f0d1d3b88f81",
+      "id": "65373e41-f173-4b7c-bd34-abb177943f2c",
       "finding_type": "vulnerability",
       "component_name": "brace-expansion",
       "component_version": "1.1.11",
@@ -11569,7 +11569,7 @@
       "confidence": null
     },
     {
-      "id": "3e55436d-01c6-48ff-aa9d-06cdced8f3e8",
+      "id": "00c8160a-ed14-413e-81ce-106de739dc3e",
       "finding_type": "vulnerability",
       "component_name": "babel-traverse",
       "component_version": "6.26.0",
@@ -11593,7 +11593,7 @@
       "confidence": null
     },
     {
-      "id": "8e737d25-cc94-4f77-bc56-02ebd115115e",
+      "id": "ad9b4f37-59c2-408d-b5ef-bc53f6200b23",
       "finding_type": "vulnerability",
       "component_name": "minimatch",
       "component_version": "3.0.4",
@@ -11621,7 +11621,7 @@
       "confidence": null
     },
     {
-      "id": "543b4478-3cd2-4e26-8b35-b87d618722f5",
+      "id": "48141f48-7e07-429d-8493-82d7cf400c27",
       "finding_type": "vulnerability",
       "component_name": "st",
       "component_version": "0.2.4",
@@ -11648,7 +11648,7 @@
       "confidence": null
     },
     {
-      "id": "76f7bdb2-f7d9-493e-a5ca-f975186070d8",
+      "id": "9a5748d5-a757-4c1d-b8ac-49fb9f5e3b54",
       "finding_type": "vulnerability",
       "component_name": "minimatch",
       "component_version": "3.0.4",
@@ -11676,7 +11676,7 @@
       "confidence": null
     },
     {
-      "id": "2191c8e0-e0c4-49ce-8d7b-657a36b7fce8",
+      "id": "f5569218-3a2d-43cf-b6d9-c58e9edc30ea",
       "finding_type": "vulnerability",
       "component_name": "mongoose",
       "component_version": "4.2.4",
@@ -11703,7 +11703,7 @@
       "confidence": null
     },
     {
-      "id": "dc3f65e3-b343-4976-aaa2-139546581fd2",
+      "id": "15e94ea5-8c63-4225-bb45-91fe1b331f22",
       "finding_type": "vulnerability",
       "component_name": "adm-zip",
       "component_version": "0.4.7",
@@ -11730,7 +11730,7 @@
       "confidence": null
     },
     {
-      "id": "16474bbe-fa1e-4b88-acf8-a94d5360a422",
+      "id": "3c771220-797b-4668-bba7-885c2787b4c8",
       "finding_type": "vulnerability",
       "component_name": "hbs",
       "component_version": "4.0.4",
@@ -11757,7 +11757,7 @@
       "confidence": null
     },
     {
-      "id": "f5d964ed-595f-463b-aad2-5a907aeb3d5c",
+      "id": "9f2e6df4-2dc5-4159-87e3-0d82c04dbfd6",
       "finding_type": "vulnerability",
       "component_name": "js-yaml",
       "component_version": "3.13.1",
@@ -11785,7 +11785,7 @@
       "confidence": null
     },
     {
-      "id": "64816c8e-8d56-4ca6-ae36-4d15d9a02362",
+      "id": "3a25961f-766c-4047-964d-bdd3e0dec6b4",
       "finding_type": "vulnerability",
       "component_name": "express",
       "component_version": "4.12.4",
@@ -11812,7 +11812,7 @@
       "confidence": null
     },
     {
-      "id": "916999c9-1ee0-44f9-b773-59cfdb3eac82",
+      "id": "ceb135df-10bb-4f08-b9c3-61555c863dc3",
       "finding_type": "vulnerability",
       "component_name": "brace-expansion",
       "component_version": "1.1.11",
@@ -11841,7 +11841,7 @@
       "confidence": null
     },
     {
-      "id": "3d5b977a-5e4f-4e58-b4f5-b7d3418f5b9e",
+      "id": "0a25c79d-6480-466a-82d5-af4aa0c5225f",
       "finding_type": "vulnerability",
       "component_name": "js-yaml",
       "component_version": "3.13.1",
@@ -11869,7 +11869,7 @@
       "confidence": null
     },
     {
-      "id": "fc66ab27-a869-402d-9e13-af03e4ee6931",
+      "id": "86b9ad0f-0183-404f-89b7-f15d28283d0e",
       "finding_type": "vulnerability",
       "component_name": "request",
       "component_version": "2.88.0",
@@ -11898,7 +11898,7 @@
       "confidence": null
     },
     {
-      "id": "6929f377-7cfd-43c4-bc3a-b70e5fcd9799",
+      "id": "942b18ab-e864-41a2-a4b3-bd691a3c6fb9",
       "finding_type": "vulnerability",
       "component_name": "bson",
       "component_version": "0.4.23",
@@ -11926,7 +11926,7 @@
       "confidence": null
     },
     {
-      "id": "73870bf1-577c-4361-b15b-a561a04319cc",
+      "id": "242b0af0-b4c7-44a5-88fe-80bd1e3f3b19",
       "finding_type": "vulnerability",
       "component_name": "figlet",
       "component_version": "1.5.0",
@@ -11955,7 +11955,7 @@
       "confidence": null
     },
     {
-      "id": "04d3c944-3cd9-4d19-85e1-9520ffbf117d",
+      "id": "8b0cd6d3-76e4-4679-a02a-0486d5ab139b",
       "finding_type": "vulnerability",
       "component_name": "minimatch",
       "component_version": "3.0.4",
@@ -11983,7 +11983,7 @@
       "confidence": null
     },
     {
-      "id": "7d7ca78d-dc05-4357-91b0-05a93bc9f3d4",
+      "id": "6f110aa5-c56b-4ce4-bbb2-a27dcd46dec4",
       "finding_type": "vulnerability",
       "component_name": "brace-expansion",
       "component_version": "1.1.11",
@@ -12012,7 +12012,7 @@
       "confidence": null
     },
     {
-      "id": "cb972176-7a20-4b65-ba3b-337226b49b90",
+      "id": "b4cabdd6-b896-4c9e-a275-96fbc91ad7a4",
       "finding_type": "vulnerability",
       "component_name": "brace-expansion",
       "component_version": "1.1.11",
@@ -12041,7 +12041,7 @@
       "confidence": null
     },
     {
-      "id": "39972a41-d185-42e4-94b7-1855a7b373f6",
+      "id": "3ba74ff9-739a-48de-a474-847efff6c454",
       "finding_type": "vulnerability",
       "component_name": "marked",
       "component_version": "0.3.5",
@@ -12068,7 +12068,7 @@
       "confidence": null
     },
     {
-      "id": "33009755-8e85-40dc-a92a-d65eaf166f15",
+      "id": "5fff6269-ef99-43f9-bcab-462f95d9d5c3",
       "finding_type": "vulnerability",
       "component_name": "mongoose",
       "component_version": "4.2.4",
@@ -12095,7 +12095,7 @@
       "confidence": null
     },
     {
-      "id": "2b2a2a9d-3144-4567-b13d-1c9c15d31f26",
+      "id": "a90c7e66-83b9-4ecb-ae5a-05661f831033",
       "finding_type": "vulnerability",
       "component_name": "ejs",
       "component_version": "0.8.8",
@@ -12123,7 +12123,7 @@
       "confidence": null
     },
     {
-      "id": "dcf0d1cb-611e-424d-8f67-51afb3462058",
+      "id": "aeef58ec-10ad-4f12-9a0f-f2100959f026",
       "finding_type": "vulnerability",
       "component_name": "ejs",
       "component_version": "1.0.0",
@@ -12150,7 +12150,7 @@
       "confidence": null
     },
     {
-      "id": "4bc5b8fb-30f7-4b90-af5e-0855b9a01ead",
+      "id": "2461b731-7957-4179-9563-571f124f7008",
       "finding_type": "vulnerability",
       "component_name": "decode-uri-component",
       "component_version": "0.2.0",
@@ -12174,7 +12174,7 @@
       "confidence": null
     },
     {
-      "id": "599dee5e-e9aa-49e0-8b9c-e37291ff9cdf",
+      "id": "010ae488-b1df-4d23-8ae0-105f274b4636",
       "finding_type": "vulnerability",
       "component_name": "body-parser",
       "component_version": "1.9.0",
@@ -12201,7 +12201,7 @@
       "confidence": null
     },
     {
-      "id": "d7565ec2-fa76-4808-95aa-15abc53d3877",
+      "id": "0cd31fe1-0f07-4661-a449-990466fb1897",
       "finding_type": "vulnerability",
       "component_name": "mongoose",
       "component_version": "4.2.4",
@@ -12228,7 +12228,7 @@
       "confidence": null
     },
     {
-      "id": "cd2870d2-130f-4f34-bf1b-27bea62cb7fa",
+      "id": "23e0fb8c-e13e-4a9d-a726-6dc4d4259fac",
       "finding_type": "vulnerability",
       "component_name": "brace-expansion",
       "component_version": "1.1.11",
@@ -12257,7 +12257,7 @@
       "confidence": null
     },
     {
-      "id": "0916c0a6-1ca5-4e70-a6e7-daf549b78c52",
+      "id": "db440891-9c4e-48a1-b1da-bbecd26bf015",
       "finding_type": "vulnerability",
       "component_name": "ajv",
       "component_version": "6.10.2",
@@ -12288,7 +12288,7 @@
       "confidence": null
     },
     {
-      "id": "79c4287f-bb7e-4555-b25c-7e4b461f6dd7",
+      "id": "fce7e451-06f8-4c9c-9e1a-836a437ee0f5",
       "finding_type": "vulnerability",
       "component_name": "yargs-parser",
       "component_version": "8.1.0",
@@ -12317,7 +12317,7 @@
       "confidence": null
     },
     {
-      "id": "2050f963-d125-4e77-aecd-3f71a9023342",
+      "id": "ad98bffb-2c51-4a62-aff7-cc7eff9ec6fb",
       "finding_type": "vulnerability",
       "component_name": "yargs-parser",
       "component_version": "9.0.2",
@@ -12347,7 +12347,7 @@
       "confidence": null
     },
     {
-      "id": "c348d660-87c9-480f-b66a-411d0ae3b75a",
+      "id": "738c099f-251f-467a-a1a6-c1fe22a531c6",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -12375,7 +12375,7 @@
       "confidence": null
     },
     {
-      "id": "b786901c-9b0e-4858-bc00-08ed326a2d85",
+      "id": "83ecb55c-4f12-4c44-b8e7-04e78eac6094",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -12403,7 +12403,7 @@
       "confidence": null
     },
     {
-      "id": "8fd76ccc-c919-4211-a14d-d7aa0720cc09",
+      "id": "535f3fe6-459a-4f63-bd80-63baf18e25e3",
       "finding_type": "vulnerability",
       "component_name": "brace-expansion",
       "component_version": "1.1.11",
@@ -12432,7 +12432,7 @@
       "confidence": null
     },
     {
-      "id": "63d042af-48af-4b45-b95e-9743b75ba6ab",
+      "id": "ad22496b-b46e-4c8d-b1e3-a2b197948001",
       "finding_type": "vulnerability",
       "component_name": "mongoose",
       "component_version": "4.2.4",
@@ -12459,7 +12459,7 @@
       "confidence": null
     },
     {
-      "id": "a34b0ec9-7956-4701-b1fa-19ea7708917b",
+      "id": "e3ab00e1-ca8e-4d78-973e-801ee81c5164",
       "finding_type": "vulnerability",
       "component_name": "decode-uri-component",
       "component_version": "0.2.0",
@@ -12483,7 +12483,7 @@
       "confidence": null
     },
     {
-      "id": "896092ea-4696-486e-9c8c-5afd271c85ad",
+      "id": "263b8524-04b1-4ab6-bda5-afa97f109485",
       "finding_type": "vulnerability",
       "component_name": "uuid",
       "component_version": "3.3.2",
@@ -12511,7 +12511,7 @@
       "confidence": null
     },
     {
-      "id": "873a55f8-199c-405e-8d20-85b4c03ccde4",
+      "id": "18db2f36-84bd-4779-a3e9-586090ffb717",
       "finding_type": "vulnerability",
       "component_name": "qs",
       "component_version": "2.2.4",
@@ -12539,7 +12539,7 @@
       "confidence": null
     },
     {
-      "id": "84376c9c-dbcc-4bcf-9040-8f8d79a9dbb4",
+      "id": "cad69699-e4d7-4f04-9310-2866e0b3dbd5",
       "finding_type": "vulnerability",
       "component_name": "qs",
       "component_version": "2.4.2",
@@ -12567,7 +12567,7 @@
       "confidence": null
     },
     {
-      "id": "5d3d570d-b37e-406f-bcad-239f3c39917b",
+      "id": "4eeee511-46f9-4b24-a5d4-9e2145b289af",
       "finding_type": "vulnerability",
       "component_name": "qs",
       "component_version": "6.5.2",
@@ -12597,7 +12597,7 @@
       "confidence": null
     },
     {
-      "id": "a7d826c4-e269-44df-a1db-a10d1338951d",
+      "id": "962dc45d-2a7e-4295-8576-0936db7f79f4",
       "finding_type": "vulnerability",
       "component_name": "cookie",
       "component_version": "0.1.2",
@@ -12625,7 +12625,7 @@
       "confidence": null
     },
     {
-      "id": "1e2ae2d5-7f8b-4c4d-b113-8f8bbea8e097",
+      "id": "38b2d912-fe6e-4021-811e-ccc7d4e6111f",
       "finding_type": "vulnerability",
       "component_name": "cookie",
       "component_version": "0.4.1",
@@ -12653,7 +12653,7 @@
       "confidence": null
     },
     {
-      "id": "d70022da-1482-4013-8330-625bf2a14615",
+      "id": "9cb7117c-d4ee-4fff-b430-65e3bd57d072",
       "finding_type": "vulnerability",
       "component_name": "brace-expansion",
       "component_version": "1.1.11",
@@ -12682,7 +12682,7 @@
       "confidence": null
     },
     {
-      "id": "a36512a9-4622-4870-8a3c-19796b1ccd7c",
+      "id": "cf92e99b-e097-4d2d-a9e8-116bc2016942",
       "finding_type": "vulnerability",
       "component_name": "js-yaml",
       "component_version": "3.13.1",
@@ -12710,7 +12710,7 @@
       "confidence": null
     },
     {
-      "id": "96441d33-454d-4b9b-b705-d0f4dbf255e4",
+      "id": "02fde1d1-7e2e-4b96-ae7b-762b66936b54",
       "finding_type": "vulnerability",
       "component_name": "qs",
       "component_version": "2.4.2",
@@ -12738,7 +12738,7 @@
       "confidence": null
     },
     {
-      "id": "6fc4dd6f-658a-4b18-9c15-7a9da173361f",
+      "id": "b717ef30-b3d7-4c04-b283-26193eba4955",
       "finding_type": "vulnerability",
       "component_name": "qs",
       "component_version": "6.5.2",
@@ -12768,7 +12768,7 @@
       "confidence": null
     },
     {
-      "id": "77eb2cf2-cfe4-4d93-9124-67f0f45f5318",
+      "id": "30a8f4b8-a8ae-4f16-96f8-1580323fce88",
       "finding_type": "vulnerability",
       "component_name": "js-yaml",
       "component_version": "3.13.1",
@@ -12796,7 +12796,7 @@
       "confidence": null
     },
     {
-      "id": "1484595b-3b23-4d72-9471-a85ec22e4111",
+      "id": "40dde5af-a674-4ba2-bbc6-226aa79426c5",
       "finding_type": "vulnerability",
       "component_name": "morgan",
       "component_version": "1.10.0",
@@ -12823,7 +12823,7 @@
       "confidence": null
     },
     {
-      "id": "9d2d0d84-0edf-4138-b123-6b5150786cad",
+      "id": "e7be99d5-83f5-4588-90ec-1ff1234d7f29",
       "finding_type": "vulnerability",
       "component_name": "serve-static",
       "component_version": "1.9.3",
@@ -12851,7 +12851,7 @@
       "confidence": null
     },
     {
-      "id": "ffa53711-1c88-44e1-8747-eb53f8ac52ab",
+      "id": "c94add41-9656-49f1-ac91-7ec9fd37f110",
       "finding_type": "vulnerability",
       "component_name": "typeorm",
       "component_version": "0.2.24",
@@ -12878,7 +12878,7 @@
       "confidence": null
     },
     {
-      "id": "3af068a3-c11e-4bdf-8778-8b314d112f04",
+      "id": "edc80dc0-41af-4c99-a5d2-6ce79f2e132f",
       "finding_type": "vulnerability",
       "component_name": "mongoose",
       "component_version": "4.2.4",
@@ -12905,7 +12905,7 @@
       "confidence": null
     },
     {
-      "id": "36d9af13-8f9a-45a2-b3db-6cf910a4129c",
+      "id": "eab0cbea-83cd-4d2e-95ed-43f6c59cc146",
       "finding_type": "vulnerability",
       "component_name": "morgan",
       "component_version": "1.10.0",
@@ -12932,7 +12932,7 @@
       "confidence": null
     },
     {
-      "id": "a5186e1d-107a-4d4c-a990-db0396831f47",
+      "id": "c734aeff-8d5d-4a9c-93f5-465e04e20a81",
       "finding_type": "vulnerability",
       "component_name": "typeorm",
       "component_version": "0.2.24",
@@ -12959,7 +12959,7 @@
       "confidence": null
     },
     {
-      "id": "4c68093e-3a1c-4ac8-a539-8cc9d5ae1423",
+      "id": "4d712c32-ca9b-4521-9eb9-f9b39c4ca973",
       "finding_type": "vulnerability",
       "component_name": "send",
       "component_version": "0.12.3",
@@ -12987,7 +12987,7 @@
       "confidence": null
     },
     {
-      "id": "53fce4f9-bd3e-4811-9703-2e2857a35fca",
+      "id": "2eb2f08d-0bd2-42ab-86b6-df8e9e6abf2d",
       "finding_type": "vulnerability",
       "component_name": "validator",
       "component_version": "13.5.2",
@@ -13014,7 +13014,7 @@
       "confidence": null
     },
     {
-      "id": "7687da3b-891c-4def-b3dc-66c4153e5400",
+      "id": "0236e505-fa7e-42c6-ba0b-2f579eeab61b",
       "finding_type": "vulnerability",
       "component_name": "diff",
       "component_version": "1.4.0",
@@ -13043,7 +13043,7 @@
       "confidence": null
     },
     {
-      "id": "f08f7461-d330-4ea5-83d4-2620b64a0581",
+      "id": "2fe0519e-7a29-4de0-9d0b-d4c8ca60c934",
       "finding_type": "vulnerability",
       "component_name": "morgan",
       "component_version": "1.10.0",
@@ -13070,7 +13070,7 @@
       "confidence": null
     },
     {
-      "id": "2580e1dd-bc09-42e3-babb-4c64f8de40c1",
+      "id": "15aec7f5-b94a-4dd2-9792-67112c79d41d",
       "finding_type": "vulnerability",
       "component_name": "express",
       "component_version": "4.12.4",
@@ -13097,7 +13097,7 @@
       "confidence": null
     },
     {
-      "id": "cafbfbe3-9ecf-4bf0-8adc-6b680cf69492",
+      "id": "c2a9bfe3-db9a-4678-8d8e-57dd7df7419b",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -13125,7 +13125,7 @@
       "confidence": null
     },
     {
-      "id": "b4dc13d1-25fe-4d6b-85cf-df786bce5937",
+      "id": "4cedf224-b4b2-46ac-9ca1-9c775aad90c4",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -13153,7 +13153,7 @@
       "confidence": null
     },
     {
-      "id": "cb5f7533-b244-4f28-a429-cbf8b5a8d2cd",
+      "id": "69c42072-07bd-4a25-ae1b-ac9e5846c142",
       "finding_type": "vulnerability",
       "component_name": "brace-expansion",
       "component_version": "1.1.11",
@@ -13182,7 +13182,7 @@
       "confidence": null
     },
     {
-      "id": "2ee40b6d-32b8-4dcb-9bd3-16bfb434cb81",
+      "id": "2c4c6d88-cd8a-49cc-a45b-94168ae46085",
       "finding_type": "vulnerability",
       "component_name": "adm-zip",
       "component_version": "0.4.7",
@@ -13209,7 +13209,7 @@
       "confidence": null
     },
     {
-      "id": "e133294a-658e-4ae2-8b98-f6a00cb17fa2",
+      "id": "26b48fc2-6da8-4870-acde-ea06f1f3cc02",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -13237,7 +13237,7 @@
       "confidence": null
     },
     {
-      "id": "8661fe3b-601a-4690-9087-60cfd5dd1d9f",
+      "id": "3d6e181f-9e97-46dd-8fc7-e09a5fb6ed63",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -13265,7 +13265,7 @@
       "confidence": null
     },
     {
-      "id": "e55ff32d-5928-410c-ac07-ecd400c16588",
+      "id": "a019b058-bb95-405f-a093-f3e3f85d13e9",
       "finding_type": "vulnerability",
       "component_name": "body-parser",
       "component_version": "1.9.0",
@@ -13292,7 +13292,7 @@
       "confidence": null
     },
     {
-      "id": "60747b08-ab93-473a-b289-a2b1108dc3a6",
+      "id": "23e950ba-755f-421a-b2ab-04a76f36e306",
       "finding_type": "vulnerability",
       "component_name": "on-headers",
       "component_version": "1.0.2",
@@ -13320,7 +13320,7 @@
       "confidence": null
     },
     {
-      "id": "7f6a84fc-0881-4bd4-82fc-65d2edcca16a",
+      "id": "154eadd4-b124-4f6e-80ec-8b4370d143c7",
       "finding_type": "vulnerability",
       "component_name": "mongoose",
       "component_version": "4.2.4",
@@ -13347,7 +13347,7 @@
       "confidence": null
     },
     {
-      "id": "ff8d451c-b718-46e6-9d81-6c05e6e4706c",
+      "id": "128eac73-3517-4fb7-87f5-393379bb1e3a",
       "finding_type": "vulnerability",
       "component_name": "adm-zip",
       "component_version": "0.4.7",
@@ -13373,7 +13373,7 @@
       "confidence": null
     },
     {
-      "id": "9c30af3a-ab61-405e-a3a0-0e80b756c309",
+      "id": "0442f11b-3aa8-45f3-ab5a-1665d93e8783",
       "finding_type": "vulnerability",
       "component_name": "adm-zip",
       "component_version": "0.4.7",
@@ -13399,7 +13399,7 @@
       "confidence": null
     },
     {
-      "id": "aa1bc9a8-e2e1-4050-886c-c7a6824ee5da",
+      "id": "edf95bd3-2958-4f1d-b24e-32a02e282e89",
       "finding_type": "vulnerability",
       "component_name": "diff",
       "component_version": "1.4.0",
@@ -13427,7 +13427,7 @@
       "confidence": null
     },
     {
-      "id": "d1596f08-00ff-4ce5-9448-ccb3c0320b92",
+      "id": "c0bb8c44-6742-4c71-817e-f6ca1fd0c10d",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -13454,7 +13454,7 @@
       "confidence": null
     },
     {
-      "id": "18690763-a51b-40c8-8ca9-daa76fb54cf8",
+      "id": "bfea3576-9971-422c-aa32-26a011bf66eb",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -13481,7 +13481,7 @@
       "confidence": null
     },
     {
-      "id": "389b33e3-c932-4c6f-aed1-be525afe986b",
+      "id": "6667086e-4751-4b47-890e-8ddcbd3a04b1",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -13508,7 +13508,7 @@
       "confidence": null
     },
     {
-      "id": "3c5cd26a-46d7-4d96-a9d8-7e6ae8641aee",
+      "id": "5623776f-a684-424a-8a6c-c4753f9436ca",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -13535,7 +13535,7 @@
       "confidence": null
     },
     {
-      "id": "e4965808-33d6-4e00-b972-af5b1c90ebc9",
+      "id": "4f83b251-6299-41de-843e-d03e504ccfd8",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -13562,7 +13562,7 @@
       "confidence": null
     },
     {
-      "id": "efaeba58-f8c4-4f49-8a2b-135e3708649c",
+      "id": "3488dd04-faaa-4851-a728-d5e968724076",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -13589,7 +13589,7 @@
       "confidence": null
     },
     {
-      "id": "b1943980-9b43-41e6-adf0-de7c188878da",
+      "id": "49fa83ab-10c3-433a-9402-da007c497f0b",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -13616,7 +13616,7 @@
       "confidence": null
     },
     {
-      "id": "d75c8ddb-3350-4f50-a786-bd849116299c",
+      "id": "a0d6810b-c4d4-4115-9523-28642887239e",
       "finding_type": "vulnerability",
       "component_name": "js-yaml",
       "component_version": "3.13.1",
@@ -13643,7 +13643,7 @@
       "confidence": null
     },
     {
-      "id": "fcad9231-5bd6-47cf-98d1-03f9c44dcb35",
+      "id": "294b5b03-a766-4240-bc84-a1a36850d5a6",
       "finding_type": "vulnerability",
       "component_name": "mongodb",
       "component_version": "2.0.46",
@@ -13670,7 +13670,7 @@
       "confidence": null
     },
     {
-      "id": "edd3d227-3f54-47e4-8112-2ca59ec8ca9f",
+      "id": "e74e25fd-7ca9-4206-81d6-a1ed07dc62e9",
       "finding_type": "vulnerability",
       "component_name": "adm-zip",
       "component_version": "0.4.7",
@@ -13696,7 +13696,7 @@
       "confidence": null
     },
     {
-      "id": "2fa5ce4f-b8f3-4dbc-a3de-9c9ceea6bc5e",
+      "id": "7de22030-0a6e-478c-bbab-6bc31788710e",
       "finding_type": "vulnerability",
       "component_name": "adm-zip",
       "component_version": "0.4.7",
@@ -13722,7 +13722,7 @@
       "confidence": null
     },
     {
-      "id": "886e3ec7-e571-4c16-a09c-43c191933783",
+      "id": "9bece137-14c3-4489-9527-77abae083d42",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -13749,7 +13749,7 @@
       "confidence": null
     },
     {
-      "id": "5297aa1b-ee48-41a1-a2df-043965ad701b",
+      "id": "4ea4d3e0-fd12-4491-8c1c-23e4f74fac38",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -13776,7 +13776,7 @@
       "confidence": null
     },
     {
-      "id": "05515520-a76d-49d1-aba8-8c632f8833ea",
+      "id": "c8d3fdd1-2e7e-42f0-90fd-a26751ea2b0d",
       "finding_type": "vulnerability",
       "component_name": "highlight.js",
       "component_version": "9.18.1",
@@ -13804,7 +13804,7 @@
       "confidence": null
     },
     {
-      "id": "2f257309-be23-4161-9cfb-508706b3918f",
+      "id": "df84565f-8856-4685-9767-706c3317d3a9",
       "finding_type": "vulnerability",
       "component_name": "mem",
       "component_version": "1.1.0",
@@ -13827,7 +13827,7 @@
       "confidence": null
     },
     {
-      "id": "ec487414-6215-4dde-ae95-10e7272e5329",
+      "id": "32a856eb-7cf4-4243-a0c4-e57e010054fa",
       "finding_type": "vulnerability",
       "component_name": "mongoose",
       "component_version": "4.2.4",
@@ -13853,7 +13853,7 @@
       "confidence": null
     },
     {
-      "id": "2c6c7a31-8133-45af-8e28-bdda3bd0b7ae",
+      "id": "9c11c999-9578-4397-b386-0afa1e25072f",
       "finding_type": "vulnerability",
       "component_name": "npmconf",
       "component_version": "0.0.24",
@@ -13879,7 +13879,7 @@
       "confidence": null
     },
     {
-      "id": "d3c43d43-8f0d-4fc4-8a01-a2f13d0f13e7",
+      "id": "697f19f5-999a-45fb-96a9-69906fd0a8dc",
       "finding_type": "vulnerability",
       "component_name": "typeorm",
       "component_version": "0.2.24",
@@ -13905,7 +13905,7 @@
       "confidence": null
     },
     {
-      "id": "ce7d23ef-7039-419d-94b6-10e1913a9fab",
+      "id": "21dcf9b9-782a-4711-9408-a8690bde5daf",
       "finding_type": "vulnerability",
       "component_name": "validator",
       "component_version": "13.5.2",
@@ -13931,7 +13931,7 @@
       "confidence": null
     },
     {
-      "id": "f0c3ac82-7edf-4c73-9889-a93a7dd87367",
+      "id": "17c81491-00a1-47d1-a48b-e2b5d7269a92",
       "finding_type": "vulnerability",
       "component_name": "express-fileupload",
       "component_version": "0.0.5",
@@ -13957,7 +13957,7 @@
       "confidence": null
     },
     {
-      "id": "dcd2ced3-b95b-4b45-80f9-9837ef53197a",
+      "id": "7de15fcf-22d8-400e-9524-bafdc84915b4",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.11",
@@ -13984,7 +13984,7 @@
       "confidence": null
     },
     {
-      "id": "bef2b3fe-51c4-4e7d-b11e-ba97157ef559",
+      "id": "088beefa-acef-4ef3-85c2-a41858dff62d",
       "finding_type": "vulnerability",
       "component_name": "handlebars",
       "component_version": "4.0.14",
@@ -14011,7 +14011,7 @@
       "confidence": null
     },
     {
-      "id": "6ed23ef0-0636-4a6e-b237-4ac42e2f04dc",
+      "id": "65bf3543-ddab-4e9c-b84a-509efc7e5802",
       "finding_type": "unpinned_version",
       "component_name": "method-override",
       "component_version": "latest",
@@ -14034,7 +14034,7 @@
       "confidence": "high"
     },
     {
-      "id": "b59bf5f6-dc12-4392-80a1-c4338b735208",
+      "id": "26dbd2ba-a4ae-4ce8-bcc5-127efce11fe2",
       "finding_type": "unpinned_version",
       "component_name": "morgan",
       "component_version": "latest",
@@ -14057,7 +14057,7 @@
       "confidence": "high"
     },
     {
-      "id": "43445e31-990e-4e9e-a045-78189f208c88",
+      "id": "b4a08b94-5d1a-48dd-a884-2bda940cf1fd",
       "finding_type": "untrusted_image",
       "component_name": "node",
       "component_version": "18.13.0",
@@ -14078,7 +14078,7 @@
       "confidence": "medium"
     },
     {
-      "id": "dea93afe-9519-46e0-9709-ab609ad1f5be",
+      "id": "dd965e59-8848-47c4-8651-3f8546d3f6c0",
       "finding_type": "unsafe_ci",
       "component_name": "actions/checkout",
       "component_version": "v3",
@@ -14097,7 +14097,7 @@
       "confidence": "medium"
     },
     {
-      "id": "ddedc3c2-733f-4b56-ae04-5573b58f87ab",
+      "id": "7c8a32f3-5551-4262-8f4d-ac740aafe302",
       "finding_type": "unsafe_ci",
       "component_name": "actions/checkout",
       "component_version": "v3",
@@ -14116,7 +14116,7 @@
       "confidence": "medium"
     },
     {
-      "id": "fb983274-811a-4db2-979f-ec4a24ab4efe",
+      "id": "d1eb50be-620f-4a70-88d2-a5c38db60df5",
       "finding_type": "unsafe_ci",
       "component_name": "actions/checkout",
       "component_version": "v3",
@@ -14135,7 +14135,7 @@
       "confidence": "medium"
     },
     {
-      "id": "8184b7cc-a967-4c03-8ae3-195b1e0e20ad",
+      "id": "4962564d-4747-45ac-aa70-934ccaec2387",
       "finding_type": "unsafe_ci",
       "component_name": "actions/checkout",
       "component_version": "v3",
@@ -22729,8 +22729,8 @@
           ],
           "minimist": [
             "<root> \u2192 typeorm@0.2.24 \u2192 mkdirp@0.5.5 \u2192 minimist@1.2.0",
-            "<root> \u2192 browserify@13.3.0 \u2192 subarg@1.0.0 \u2192 minimist@1.2.0",
-            "<root> \u2192 tap@11.1.5 \u2192 coveralls@3.0.9 \u2192 minimist@1.2.0"
+            "<root> \u2192 tap@11.1.5 \u2192 coveralls@3.0.9 \u2192 minimist@1.2.0",
+            "<root> \u2192 tap@11.1.5 \u2192 mkdirp@0.5.1 \u2192 minimist@1.2.0"
           ],
           "lodash": [
             "<root> \u2192 snyk@1.278.1 \u2192 lodash@4.17.15",
@@ -22745,7 +22745,7 @@
       "components": [],
       "findings": [
         {
-          "id": "2b8ca68c-5a73-4d44-8fab-59798e7fa9be",
+          "id": "5a6f4510-904d-436b-a49a-e26657c4f5f0",
           "finding_type": "vulnerability",
           "component_name": "jquery",
           "component_version": "2.2.4",
@@ -22772,7 +22772,7 @@
           "confidence": null
         },
         {
-          "id": "f39b45cf-bb28-4437-90ca-51bd3ac782d4",
+          "id": "4fe10914-6835-4a76-a3b6-0538367a1c7f",
           "finding_type": "vulnerability",
           "component_name": "jquery",
           "component_version": "2.2.4",
@@ -22799,7 +22799,7 @@
           "confidence": null
         },
         {
-          "id": "31d499c9-5873-46f3-aa4a-be0050a49ee1",
+          "id": "a6aa4e4d-3b52-46a5-ab35-a25fb035bdd7",
           "finding_type": "vulnerability",
           "component_name": "y18n",
           "component_version": "3.2.1",
@@ -22828,7 +22828,7 @@
           "confidence": null
         },
         {
-          "id": "c79c73ca-08f6-4a67-98b3-4929f3d0e9f4",
+          "id": "365d9d6e-489f-4822-9026-a9037c949b46",
           "finding_type": "vulnerability",
           "component_name": "y18n",
           "component_version": "4.0.0",
@@ -22857,7 +22857,7 @@
           "confidence": null
         },
         {
-          "id": "191660d7-4ed6-4e47-96cc-bc17a77c9281",
+          "id": "b80f1932-4572-40f9-a376-f04f04c178de",
           "finding_type": "vulnerability",
           "component_name": "jquery",
           "component_version": "2.2.4",
@@ -22884,7 +22884,7 @@
           "confidence": null
         },
         {
-          "id": "f1e3b812-c28a-4428-ba04-20fda34707c2",
+          "id": "1f72c4f8-7fec-42b6-9f5d-e4f841c01ba7",
           "finding_type": "vulnerability",
           "component_name": "ejs",
           "component_version": "0.8.8",
@@ -22912,7 +22912,7 @@
           "confidence": null
         },
         {
-          "id": "58e23eba-66a8-4c45-b54c-a431d331634e",
+          "id": "7138be21-c72e-488d-8147-34e7b0b31df7",
           "finding_type": "vulnerability",
           "component_name": "ejs",
           "component_version": "1.0.0",
@@ -22939,7 +22939,7 @@
           "confidence": null
         },
         {
-          "id": "a61be49d-c934-4102-b611-8ca0fdbe49b7",
+          "id": "0de683a7-db44-46dd-82cf-8263480d6b79",
           "finding_type": "vulnerability",
           "component_name": "st",
           "component_version": "0.2.4",
@@ -22966,7 +22966,7 @@
           "confidence": null
         },
         {
-          "id": "025ece93-eb23-4f69-852b-1606d6d62db4",
+          "id": "38283c42-fd97-4af8-8b37-13145355e0fa",
           "finding_type": "vulnerability",
           "component_name": "mongoose",
           "component_version": "4.2.4",
@@ -22993,7 +22993,7 @@
           "confidence": null
         },
         {
-          "id": "8dce05d9-65a9-4cb9-8cb5-2f108ea05d9c",
+          "id": "b2848d35-dd5b-42bc-ba66-44508ed9ab0e",
           "finding_type": "vulnerability",
           "component_name": "typeorm",
           "component_version": "0.2.24",
@@ -23020,7 +23020,7 @@
           "confidence": null
         },
         {
-          "id": "fcc990fa-a59d-4b66-9ce6-fbf168b7d58a",
+          "id": "fba151f4-05fc-4293-a106-8ccda5e440b4",
           "finding_type": "vulnerability",
           "component_name": "decode-uri-component",
           "component_version": "0.2.0",
@@ -23044,7 +23044,7 @@
           "confidence": null
         },
         {
-          "id": "9bf48466-e7c4-4e89-ac40-1bc564a08636",
+          "id": "c4f136f0-3d94-48a8-bfb8-80527c20e60a",
           "finding_type": "vulnerability",
           "component_name": "jquery",
           "component_version": "2.2.4",
@@ -23071,7 +23071,7 @@
           "confidence": null
         },
         {
-          "id": "81e0b7d6-e051-4b8d-93ab-2c28198660b2",
+          "id": "655e10d9-4810-431d-93b8-863988720142",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.10",
@@ -23099,7 +23099,7 @@
           "confidence": null
         },
         {
-          "id": "1b198d3f-0b4d-405e-bdeb-bd365bc35a46",
+          "id": "97ae1199-4e22-47b6-9a83-695e0f12c296",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.4",
@@ -23126,7 +23126,7 @@
           "confidence": null
         },
         {
-          "id": "c631d62b-ad13-4be4-8324-6e600acab012",
+          "id": "37ada7c3-212e-433b-a6e3-51c01e43f2b8",
           "finding_type": "vulnerability",
           "component_name": "qs",
           "component_version": "2.2.4",
@@ -23154,7 +23154,7 @@
           "confidence": null
         },
         {
-          "id": "fa965870-3f52-4169-ba21-2482dbcdd41f",
+          "id": "5094c8bd-506c-452e-9094-b0af86b7caad",
           "finding_type": "vulnerability",
           "component_name": "qs",
           "component_version": "2.4.2",
@@ -23182,7 +23182,7 @@
           "confidence": null
         },
         {
-          "id": "869117e9-4069-4044-9c90-af8936184e20",
+          "id": "8d3321a6-9527-477c-93f8-e6bbdaf6f09d",
           "finding_type": "vulnerability",
           "component_name": "qs",
           "component_version": "6.5.2",
@@ -23212,7 +23212,7 @@
           "confidence": null
         },
         {
-          "id": "0c4464e1-0b35-42f6-8ce5-21a6ddb59dc4",
+          "id": "a26e3565-f383-452c-9fd6-08272d02496e",
           "finding_type": "vulnerability",
           "component_name": "moment",
           "component_version": "2.15.1",
@@ -23239,7 +23239,7 @@
           "confidence": null
         },
         {
-          "id": "18860193-2c56-4086-aaaf-8e0ca3fab93d",
+          "id": "5526a8b4-1a8a-404a-ba25-3e25756e8443",
           "finding_type": "vulnerability",
           "component_name": "adm-zip",
           "component_version": "0.4.7",
@@ -23266,7 +23266,7 @@
           "confidence": null
         },
         {
-          "id": "b955676c-0456-4def-b13d-33bf946c760e",
+          "id": "42d319e5-53bc-4cca-b701-2544f84404fe",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -23294,7 +23294,7 @@
           "confidence": null
         },
         {
-          "id": "08e29803-1808-4f3f-a55b-3c54dfa295a7",
+          "id": "fef14b5a-e9f9-4d3b-a434-f72c5abebe61",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -23322,7 +23322,7 @@
           "confidence": null
         },
         {
-          "id": "c3e93b16-929b-4519-9f30-5ff062243173",
+          "id": "c87e5974-718d-4843-9cf7-b336c84f8370",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -23350,7 +23350,7 @@
           "confidence": null
         },
         {
-          "id": "d8207e96-1694-40be-931b-f4be7c9f8dbe",
+          "id": "dede4cbe-679f-4158-a746-461a8b555134",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -23378,7 +23378,7 @@
           "confidence": null
         },
         {
-          "id": "8d995d09-1faf-4f1b-a0c9-1097dea83bfb",
+          "id": "6760d184-1810-46da-96f2-9648230e817f",
           "finding_type": "vulnerability",
           "component_name": "mongoose",
           "component_version": "4.2.4",
@@ -23405,7 +23405,7 @@
           "confidence": null
         },
         {
-          "id": "88bd4313-a46d-4f06-ba44-90d32dc17a4f",
+          "id": "55689b26-7af6-46b8-906c-99d911aba5be",
           "finding_type": "vulnerability",
           "component_name": "ejs",
           "component_version": "0.8.8",
@@ -23433,7 +23433,7 @@
           "confidence": null
         },
         {
-          "id": "9a8bd73d-de69-4e72-979f-0bdbc4226449",
+          "id": "f04de131-4cc5-409b-9271-946294d96c2e",
           "finding_type": "vulnerability",
           "component_name": "ejs",
           "component_version": "1.0.0",
@@ -23460,7 +23460,7 @@
           "confidence": null
         },
         {
-          "id": "3eb393c5-8f31-42f0-8060-c293a01ab597",
+          "id": "c1bae8fb-6fe0-4758-873f-befa8114151a",
           "finding_type": "vulnerability",
           "component_name": "ms",
           "component_version": "0.6.2",
@@ -23488,7 +23488,7 @@
           "confidence": null
         },
         {
-          "id": "def59e97-6f81-42ab-956c-f49523740d90",
+          "id": "d83f6b89-482f-4fe6-ae3d-ba0cd4b626d7",
           "finding_type": "vulnerability",
           "component_name": "semver",
           "component_version": "1.1.4",
@@ -23516,7 +23516,7 @@
           "confidence": null
         },
         {
-          "id": "c4f85256-3346-441d-b82f-1181882589d1",
+          "id": "c084d0af-dff0-4125-bfa1-af6d5af5ebdc",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.10",
@@ -23544,7 +23544,7 @@
           "confidence": null
         },
         {
-          "id": "e598b2e0-0078-4d4c-9fce-31a368b808a7",
+          "id": "c0c226c7-e203-430b-a0e2-c48b3ee62a8d",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.4",
@@ -23571,7 +23571,7 @@
           "confidence": null
         },
         {
-          "id": "830126d2-9d4e-4264-896a-512bcd483da0",
+          "id": "92fdac48-5915-441d-bac5-4724bde8ef6b",
           "finding_type": "vulnerability",
           "component_name": "express-fileupload",
           "component_version": "0.0.5",
@@ -23598,7 +23598,7 @@
           "confidence": null
         },
         {
-          "id": "263c1887-3785-4be6-832c-36d8bc0b972d",
+          "id": "1bac664f-1a72-4f5b-a23e-02392c81162f",
           "finding_type": "vulnerability",
           "component_name": "minimist",
           "component_version": "0.0.10",
@@ -23628,7 +23628,7 @@
           "confidence": null
         },
         {
-          "id": "5833a4da-8969-4094-9df7-5da0c140d7b0",
+          "id": "b0f7a139-6d81-4ef2-abc0-894d0b2954e2",
           "finding_type": "vulnerability",
           "component_name": "minimist",
           "component_version": "0.0.8",
@@ -23657,7 +23657,7 @@
           "confidence": null
         },
         {
-          "id": "ead83dec-f2eb-4adb-a063-11fa514dc4ca",
+          "id": "0369beb4-d333-4355-b74c-cbd7e48c7a52",
           "finding_type": "vulnerability",
           "component_name": "minimist",
           "component_version": "1.2.0",
@@ -23686,7 +23686,7 @@
           "confidence": null
         },
         {
-          "id": "7a358422-87aa-4c9a-9e59-928b4fbe9e98",
+          "id": "99b53fce-16df-4f7c-a7db-ea918475fb4c",
           "finding_type": "vulnerability",
           "component_name": "minimist",
           "component_version": "1.2.5",
@@ -23715,7 +23715,7 @@
           "confidence": null
         },
         {
-          "id": "6d307c2a-4596-4158-a467-f14648b86f54",
+          "id": "45f72a10-db98-44b5-bbc5-5e6dc111bf27",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -23743,7 +23743,7 @@
           "confidence": null
         },
         {
-          "id": "3a3a5693-653c-473b-891a-3e8766ac05ae",
+          "id": "d517a3ff-bccb-4795-82ff-a0eba6c408d2",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -23771,7 +23771,7 @@
           "confidence": null
         },
         {
-          "id": "b51ce5e5-d4f7-47a5-b891-295dcc118b7d",
+          "id": "39ec7402-1d04-48e3-8be2-18e81321af8d",
           "finding_type": "vulnerability",
           "component_name": "underscore",
           "component_version": "1.9.1",
@@ -23799,7 +23799,7 @@
           "confidence": null
         },
         {
-          "id": "d20ed486-fad8-4f3f-b0e1-6502fdb9a920",
+          "id": "821b5426-54f5-467b-a47d-bea272badb55",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.10",
@@ -23827,7 +23827,7 @@
           "confidence": null
         },
         {
-          "id": "ad5a8685-aae1-42e4-8c62-77f05401200f",
+          "id": "73fdea06-bf4b-4406-bf88-09234b7682d4",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.4",
@@ -23854,7 +23854,7 @@
           "confidence": null
         },
         {
-          "id": "1ccad07c-0f55-4713-b33e-7fadff95fcf8",
+          "id": "4804a26f-32fa-4a50-805f-f26adcfba905",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.10",
@@ -23882,7 +23882,7 @@
           "confidence": null
         },
         {
-          "id": "b0fe70cf-831a-4da7-9818-1d7e70e985a6",
+          "id": "78669517-e2d2-4492-9d21-63561e26386a",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.4",
@@ -23909,7 +23909,7 @@
           "confidence": null
         },
         {
-          "id": "554a053c-295d-4f7f-8165-1b7af06b10d5",
+          "id": "2f863d5e-b5c9-48be-855b-6ce56f484683",
           "finding_type": "vulnerability",
           "component_name": "json-schema",
           "component_version": "0.2.3",
@@ -23941,7 +23941,7 @@
           "confidence": null
         },
         {
-          "id": "3601719a-10fb-4773-b1e7-803316524525",
+          "id": "fefd9cb9-6880-46c5-bc57-24e44072d611",
           "finding_type": "vulnerability",
           "component_name": "mixin-deep",
           "component_version": "1.3.1",
@@ -23965,7 +23965,7 @@
           "confidence": null
         },
         {
-          "id": "8a902802-bae6-40e6-8f44-93e34fda2d26",
+          "id": "64d2da62-851f-4a89-a9e3-a165fe99e12c",
           "finding_type": "vulnerability",
           "component_name": "mongoose",
           "component_version": "4.2.4",
@@ -23992,7 +23992,7 @@
           "confidence": null
         },
         {
-          "id": "8898de1d-7338-43d3-85dd-31ea559bcddd",
+          "id": "9bc662cb-da10-48c4-bed6-fa0a527a1549",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -24020,7 +24020,7 @@
           "confidence": null
         },
         {
-          "id": "2f8167c5-e92e-4086-a9fe-630c2e578986",
+          "id": "d21a8700-e4dc-4f79-b82e-f405da934c47",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -24048,7 +24048,7 @@
           "confidence": null
         },
         {
-          "id": "814884d1-094f-438e-8cc3-f3d3117690ea",
+          "id": "43a78fe3-8f7d-4274-84df-775dfcb9a912",
           "finding_type": "vulnerability",
           "component_name": "moment",
           "component_version": "2.15.1",
@@ -24075,7 +24075,7 @@
           "confidence": null
         },
         {
-          "id": "23211bec-7076-4285-8509-80eb6231e183",
+          "id": "e16afd23-b094-4589-807b-0747185e7159",
           "finding_type": "vulnerability",
           "component_name": "ini",
           "component_version": "1.1.0",
@@ -24103,7 +24103,7 @@
           "confidence": null
         },
         {
-          "id": "96e381e9-1064-4f3f-aec8-186d1f1a43fc",
+          "id": "c20d0701-bf2f-41d2-83e2-321f3ed22b88",
           "finding_type": "vulnerability",
           "component_name": "ini",
           "component_version": "1.3.5",
@@ -24132,7 +24132,7 @@
           "confidence": null
         },
         {
-          "id": "c47915d7-02a6-4040-8de2-d03619758cf4",
+          "id": "e82929bc-5e2f-4425-93e4-c5239ad56877",
           "finding_type": "vulnerability",
           "component_name": "ansi-regex",
           "component_version": "3.0.0",
@@ -24161,7 +24161,7 @@
           "confidence": null
         },
         {
-          "id": "967dccf0-69cc-4ee4-b918-7b652a752507",
+          "id": "ec5a0ea2-cea2-44b8-acc2-0e6c893eac75",
           "finding_type": "vulnerability",
           "component_name": "ansi-regex",
           "component_version": "4.1.0",
@@ -24190,7 +24190,7 @@
           "confidence": null
         },
         {
-          "id": "280884b1-1bec-45dd-aa89-dcfdf2c73e7e",
+          "id": "90707d5c-6f18-4a17-a594-a72b9eaa6c39",
           "finding_type": "vulnerability",
           "component_name": "ansi-regex",
           "component_version": "5.0.0",
@@ -24219,7 +24219,7 @@
           "confidence": null
         },
         {
-          "id": "0e8ff084-ddf8-4bc8-8c9d-3c2e16019c86",
+          "id": "1037f59c-fb83-4d01-a0c4-8a5db6088b16",
           "finding_type": "vulnerability",
           "component_name": "async",
           "component_version": "2.6.3",
@@ -24248,7 +24248,7 @@
           "confidence": null
         },
         {
-          "id": "497b5976-c384-441f-af6e-6ebe8aa16dfd",
+          "id": "5466cd74-6de1-4787-9c6e-ad135a703efa",
           "finding_type": "vulnerability",
           "component_name": "dicer",
           "component_version": "0.3.0",
@@ -24278,7 +24278,7 @@
           "confidence": null
         },
         {
-          "id": "4fa586fe-a8e9-4364-bf07-b225da041ab1",
+          "id": "4b6c4a74-2a79-4d38-b00a-766bf0320616",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -24306,7 +24306,7 @@
           "confidence": null
         },
         {
-          "id": "1e143d73-108a-4408-b863-78363a374ae1",
+          "id": "7da1b0ca-f623-4ca3-bdc0-549095c0202c",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -24334,7 +24334,7 @@
           "confidence": null
         },
         {
-          "id": "baf7d29c-5243-4a75-ab40-75b6a3aba9cd",
+          "id": "5a8c5ae3-7162-4037-98ac-1ec5b9e832f5",
           "finding_type": "vulnerability",
           "component_name": "set-value",
           "component_version": "0.4.3",
@@ -24358,7 +24358,7 @@
           "confidence": null
         },
         {
-          "id": "bc9cf8f9-e6c5-4464-8655-5cacf93c9103",
+          "id": "04886471-91e7-41fa-897e-c4db32b7185b",
           "finding_type": "vulnerability",
           "component_name": "set-value",
           "component_version": "2.0.0",
@@ -24382,7 +24382,7 @@
           "confidence": null
         },
         {
-          "id": "ee3659a4-0773-4ffb-9642-d012a8a81090",
+          "id": "9006394e-4f65-4804-89b5-bdd847e7be71",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.10",
@@ -24410,7 +24410,7 @@
           "confidence": null
         },
         {
-          "id": "848bdf7d-7e21-4ceb-ad37-71eddbaa8c98",
+          "id": "e332ae18-f552-4c72-a15b-8ac43dabbc2b",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.21",
@@ -24438,7 +24438,7 @@
           "confidence": null
         },
         {
-          "id": "04780200-460a-45b4-bb2e-f34b7d8ddb41",
+          "id": "14c5ac51-497a-47ec-9322-2b1dc75a5178",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.4",
@@ -24465,7 +24465,7 @@
           "confidence": null
         },
         {
-          "id": "5302b599-4abc-47e6-b6e8-8ff3ae22ac1c",
+          "id": "8058a37b-a4bd-4f6e-876d-93f67f4933e4",
           "finding_type": "vulnerability",
           "component_name": "marked",
           "component_version": "0.3.5",
@@ -24492,7 +24492,7 @@
           "confidence": null
         },
         {
-          "id": "6c4684e6-2fd8-4ede-9ef5-c646fe34e95b",
+          "id": "9ec4fed9-e5f2-4b4a-92e4-9a54217b8ad0",
           "finding_type": "vulnerability",
           "component_name": "bson",
           "component_version": "0.4.23",
@@ -24520,7 +24520,7 @@
           "confidence": null
         },
         {
-          "id": "009f34f6-8307-4d86-abbb-c8b527e88f4d",
+          "id": "927dec8a-22d3-4a72-a283-a3cea62d5698",
           "finding_type": "vulnerability",
           "component_name": "marked",
           "component_version": "0.3.5",
@@ -24547,7 +24547,7 @@
           "confidence": null
         },
         {
-          "id": "73150c45-a18d-475f-9664-d63185f4752e",
+          "id": "1a647b43-d4b6-4f00-96d3-2e6526b21bfe",
           "finding_type": "vulnerability",
           "component_name": "semver",
           "component_version": "5.5.0",
@@ -24575,7 +24575,7 @@
           "confidence": null
         },
         {
-          "id": "e4452277-379e-4f82-b306-aaad4c0d4440",
+          "id": "a88fe96e-3d12-47fb-b0f1-d92c3956e76b",
           "finding_type": "vulnerability",
           "component_name": "semver",
           "component_version": "5.7.0",
@@ -24604,7 +24604,7 @@
           "confidence": null
         },
         {
-          "id": "42d0dff4-634f-4a52-ba71-113ebe104cab",
+          "id": "e505c964-59d5-42db-9af7-9afaa4354b0e",
           "finding_type": "vulnerability",
           "component_name": "typeorm",
           "component_version": "0.2.24",
@@ -24631,7 +24631,7 @@
           "confidence": null
         },
         {
-          "id": "1bc50f9a-ed66-47eb-9fa4-02dfb66732da",
+          "id": "168a4943-b41b-4e57-8644-ab7ef166e7d4",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -24659,7 +24659,7 @@
           "confidence": null
         },
         {
-          "id": "53b92ce6-85f4-4f5f-9824-d6e03bd6330b",
+          "id": "ba618d51-905b-4f03-9624-e4b41a933e75",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -24687,7 +24687,7 @@
           "confidence": null
         },
         {
-          "id": "64ad73ab-097f-4c97-9e3f-964a9925c9ce",
+          "id": "26e6e761-5375-4e1b-a758-1f71f1b62e3c",
           "finding_type": "vulnerability",
           "component_name": "hosted-git-info",
           "component_version": "2.6.0",
@@ -24716,7 +24716,7 @@
           "confidence": null
         },
         {
-          "id": "ce80c3f6-9aa7-403e-afff-f1f8f92ca425",
+          "id": "69ed67cc-2d0b-4d11-9401-13ac79c4db90",
           "finding_type": "vulnerability",
           "component_name": "qs",
           "component_version": "2.2.4",
@@ -24744,7 +24744,7 @@
           "confidence": null
         },
         {
-          "id": "755e1bfe-5c44-41e3-8530-326e0e2e792c",
+          "id": "8c13ec14-a51b-4ef6-9060-8452dee3babc",
           "finding_type": "vulnerability",
           "component_name": "qs",
           "component_version": "2.4.2",
@@ -24772,7 +24772,7 @@
           "confidence": null
         },
         {
-          "id": "a8431f92-4479-4658-98fe-98e8de3e3cd0",
+          "id": "f820ceb5-3a24-434a-bf7a-72f0cd23659f",
           "finding_type": "vulnerability",
           "component_name": "kind-of",
           "component_version": "6.0.2",
@@ -24802,7 +24802,7 @@
           "confidence": null
         },
         {
-          "id": "7cb2afd2-5805-46d8-a120-9a19df0e4254",
+          "id": "c7bc7369-c7a1-430e-8d2c-6354311d2ef0",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.10",
@@ -24830,7 +24830,7 @@
           "confidence": null
         },
         {
-          "id": "cbb38fd9-39b4-4ec5-91d8-abfe31301689",
+          "id": "858caa97-dcb0-4517-9808-e9a67e0b508e",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.4",
@@ -24857,7 +24857,7 @@
           "confidence": null
         },
         {
-          "id": "ad982779-9d37-49b7-b362-d1c1340933e9",
+          "id": "00b9461b-8619-4484-b8cd-eb1351521f59",
           "finding_type": "vulnerability",
           "component_name": "minimatch",
           "component_version": "3.0.4",
@@ -24885,7 +24885,7 @@
           "confidence": null
         },
         {
-          "id": "6406f76c-569a-4910-b7cf-5fdc9e8a0d8a",
+          "id": "9ed85c50-f5cb-4925-9c3a-9eaca7518825",
           "finding_type": "vulnerability",
           "component_name": "ejs",
           "component_version": "0.8.8",
@@ -24913,7 +24913,7 @@
           "confidence": null
         },
         {
-          "id": "00eb933d-a9b2-447c-b672-60808ad8553e",
+          "id": "701db67b-b267-48a2-a0ae-14a3895d8236",
           "finding_type": "vulnerability",
           "component_name": "ejs",
           "component_version": "1.0.0",
@@ -24940,7 +24940,7 @@
           "confidence": null
         },
         {
-          "id": "32e1c5e1-31e0-44a2-9f70-731bc23ffc7e",
+          "id": "8368b35c-6e42-4888-b7cd-24659ac84cdb",
           "finding_type": "vulnerability",
           "component_name": "form-data",
           "component_version": "2.3.3",
@@ -24970,7 +24970,7 @@
           "confidence": null
         },
         {
-          "id": "73e447f0-1855-4ae0-87c2-3b3b48dfdd0e",
+          "id": "e1640481-7116-408f-ad36-d791616e590c",
           "finding_type": "vulnerability",
           "component_name": "debug",
           "component_version": "2.2.0",
@@ -24998,7 +24998,7 @@
           "confidence": null
         },
         {
-          "id": "185c099e-628d-4886-aa2d-60957abeadc0",
+          "id": "ce744e65-9bb6-41b8-8f33-493be609fc57",
           "finding_type": "vulnerability",
           "component_name": "set-value",
           "component_version": "0.4.3",
@@ -25022,7 +25022,7 @@
           "confidence": null
         },
         {
-          "id": "991617e8-0d2d-46c7-bdea-7697ff90abd5",
+          "id": "52669d96-e89f-4c6c-9cfd-9b4c10b2f7b2",
           "finding_type": "vulnerability",
           "component_name": "set-value",
           "component_version": "2.0.0",
@@ -25046,7 +25046,7 @@
           "confidence": null
         },
         {
-          "id": "ebcc2187-1126-4fd1-b9e8-62c791a93135",
+          "id": "89169d86-653d-4b49-896a-172ee93183b5",
           "finding_type": "vulnerability",
           "component_name": "mime",
           "component_version": "1.2.11",
@@ -25074,7 +25074,7 @@
           "confidence": null
         },
         {
-          "id": "75c87217-56b0-4e39-9e46-65954d7fe627",
+          "id": "dba56829-2f00-4d18-84ed-30cd5e6fdd66",
           "finding_type": "vulnerability",
           "component_name": "mime",
           "component_version": "1.3.4",
@@ -25103,7 +25103,7 @@
           "confidence": null
         },
         {
-          "id": "6cc3e134-da51-4173-9f61-9250d32ad83d",
+          "id": "fe61a00f-c7e9-4795-96f2-961b1f1e6434",
           "finding_type": "vulnerability",
           "component_name": "tough-cookie",
           "component_version": "2.4.3",
@@ -25133,7 +25133,7 @@
           "confidence": null
         },
         {
-          "id": "fcb54db1-b625-45e2-a181-2a6576842fdf",
+          "id": "177d992c-18db-4115-a4b3-29240dcf66d4",
           "finding_type": "vulnerability",
           "component_name": "mongoose",
           "component_version": "4.2.4",
@@ -25160,7 +25160,7 @@
           "confidence": null
         },
         {
-          "id": "ee32d5ac-ed49-4ad0-b214-22c7f07b0f6e",
+          "id": "1c6499be-488e-49f8-bc05-fe90a7ee439a",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.4",
@@ -25187,7 +25187,7 @@
           "confidence": null
         },
         {
-          "id": "f79543cc-53da-42a4-ac1b-1f095eb96057",
+          "id": "f859580c-f6cd-445c-8f23-90d6face2738",
           "finding_type": "vulnerability",
           "component_name": "marked",
           "component_version": "0.3.5",
@@ -25214,7 +25214,7 @@
           "confidence": null
         },
         {
-          "id": "52cdb50b-6e36-4dbd-8c98-40652351705d",
+          "id": "1c5cf034-93fd-4b8a-b3bd-7752b3f03a6c",
           "finding_type": "vulnerability",
           "component_name": "ajv",
           "component_version": "6.10.2",
@@ -25245,7 +25245,7 @@
           "confidence": null
         },
         {
-          "id": "b25e10cd-91a7-47eb-9b34-d65aac35ce71",
+          "id": "2ccd1369-ff29-4190-9592-f0c06690e2ac",
           "finding_type": "vulnerability",
           "component_name": "form-data",
           "component_version": "2.3.3",
@@ -25275,7 +25275,7 @@
           "confidence": null
         },
         {
-          "id": "7ed007ef-b1c6-437a-a45a-ab570ce60334",
+          "id": "7c032026-3121-434d-af1d-946b391ab6bb",
           "finding_type": "vulnerability",
           "component_name": "fresh",
           "component_version": "0.2.4",
@@ -25303,7 +25303,7 @@
           "confidence": null
         },
         {
-          "id": "851bb618-4b62-4f80-8d66-99551003e65a",
+          "id": "0593fa3b-3513-4636-941c-799bdee109a4",
           "finding_type": "vulnerability",
           "component_name": "mongoose",
           "component_version": "4.2.4",
@@ -25330,7 +25330,7 @@
           "confidence": null
         },
         {
-          "id": "909b9e09-8628-443e-876b-d91805301bab",
+          "id": "8811567e-1eb1-4553-8be1-6bd78a9e9499",
           "finding_type": "vulnerability",
           "component_name": "path-parse",
           "component_version": "1.0.5",
@@ -25359,7 +25359,7 @@
           "confidence": null
         },
         {
-          "id": "1909fc95-1677-4f2a-afef-749fbe09a0ff",
+          "id": "a2bc6120-b339-430d-9f6b-b572a77cd82b",
           "finding_type": "vulnerability",
           "component_name": "bl",
           "component_version": "2.2.0",
@@ -25387,7 +25387,7 @@
           "confidence": null
         },
         {
-          "id": "a899fce0-9ac6-4189-8b0d-fdab1d13479a",
+          "id": "375a34c9-4807-42dd-86dc-41ad6c45958f",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.10",
@@ -25415,7 +25415,7 @@
           "confidence": null
         },
         {
-          "id": "bb2ede84-d83f-4267-bec3-79ef9d1f94a3",
+          "id": "be823999-6d4a-44e5-ad47-d77d4d3e621f",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.4",
@@ -25442,7 +25442,7 @@
           "confidence": null
         },
         {
-          "id": "4c84a08a-4788-42f5-9829-6d809cd9a44b",
+          "id": "907b7ccd-cd7b-4061-acd1-2860d7b4e657",
           "finding_type": "vulnerability",
           "component_name": "braces",
           "component_version": "2.3.2",
@@ -25471,7 +25471,7 @@
           "confidence": null
         },
         {
-          "id": "ebc6c9cf-71d5-4423-b625-5d7bffa851ba",
+          "id": "908ffe77-5b81-40c6-a976-fb08259bcaf1",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.10",
@@ -25499,7 +25499,7 @@
           "confidence": null
         },
         {
-          "id": "6541b15d-19e6-444e-a8b8-08cd7c03e697",
+          "id": "f8b7b227-aada-4812-9e0d-6fb6e805588e",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.21",
@@ -25527,7 +25527,7 @@
           "confidence": null
         },
         {
-          "id": "820586ea-0b67-4b70-a5a8-7a839416d672",
+          "id": "1fad2264-302b-4133-93fa-f4c547e037b8",
           "finding_type": "vulnerability",
           "component_name": "lodash",
           "component_version": "4.17.4",
@@ -25554,7 +25554,7 @@
           "confidence": null
         },
         {
-          "id": "ba2eea91-4855-4676-b665-19fc71899884",
+          "id": "034badd0-10e9-439d-952c-c16366d1598b",
           "finding_type": "vulnerability",
           "component_name": "express-fileupload",
           "component_version": "0.0.5",
@@ -25581,7 +25581,7 @@
           "confidence": null
         },
         {
-          "id": "767cd399-8f43-4f7a-b87e-f3cdbc5dfeca",
+          "id": "071a22b6-dc66-46f1-b4d4-f0ff4ac3b595",
           "finding_type": "vulnerability",
           "component_name": "minimist",
           "component_version": "0.0.10",
@@ -25611,7 +25611,7 @@
           "confidence": null
         },
         {
-          "id": "2bded230-c1bd-4e68-b144-5f75ceb823be",
+          "id": "731c7d31-e5ce-4673-871b-2279cbbb9333",
           "finding_type": "vulnerability",
           "component_name": "minimist",
           "component_version": "0.0.8",
@@ -25640,7 +25640,7 @@
           "confidence": null
         },
         {
-          "id": "349df1e0-da98-41bc-91ee-31ae3ee9388c",
+          "id": "0d72acb0-ac3d-4005-b975-9d15bcfe4a2c",
           "finding_type": "vulnerability",
           "component_name": "minimist",
           "component_version": "1.2.0",
@@ -25669,7 +25669,7 @@
           "confidence": null
         },
         {
-          "id": "f4dffaea-1aee-4425-881e-dbb3eabc9cf7",
+          "id": "1f39743b-e176-4a37-8aea-e20bd25f2c04",
           "finding_type": "vulnerability",
           "component_name": "negotiator",
           "component_version": "0.2.8",
@@ -25697,7 +25697,7 @@
           "confidence": null
         },
         {
-          "id": "eb4770e5-df3a-4019-9ff2-fc5067252b11",
+          "id": "e6bdcf42-cb47-4d59-8db6-2ca46599ef4b",
           "finding_type": "vulnerability",
           "component_name": "negotiator",
           "component_version": "0.4.9",
@@ -25726,20 +25726,20 @@
           "confidence": null
         },
         {
-          "id": "d1d7d554-05f2-46a8-bcd7-ae894c76d233",
+          "id": "5aa177ba-5a96-4d28-9281-5f776607f794",
           "finding_type": "vulnerability",
           "component_name": "negotiator",
           "component_version": "0.5.3",
           "ecosystem": "npm",
           "dependency_path": [
             "<root>",
-            "express@4.12.4",
-            "accepts@1.2.13",
+            "errorhandler@1.2.0",
+            "accepts@1.1.4",
             "negotiator@0.4.9"
           ],
           "evidence": {
             "is_direct": false,
-            "root_dependency": "express@4.12.4",
+            "root_dependency": "errorhandler@1.2.0",
             "advisories_count": 2,
             "scanner": "anchore/grype"
           },
@@ -25755,7 +25755,7 @@
           "confidence": null
         },
         {
-          "id": "b1648e1a-a6d5-48f0-af62-01a1ca4099c4",
+          "id": "cdbc5009-2cff-40cb-988d-b2890685df53",
           "finding_type": "vulnerability",
           "component_name": "dustjs-linkedin",
           "component_version": "2.5.0",
@@ -25782,7 +25782,7 @@
           "confidence": null
         },
         {
-          "id": "9e2dc4bf-e3c7-497f-86f6-6180453c6294",
+          "id": "ae6f0bbd-c524-43cb-a203-483ac257b309",
           "finding_type": "vulnerability",
           "component_name": "debug",
           "component_version": "2.2.0",
@@ -25810,7 +25810,7 @@
           "confidence": null
         },
         {
-          "id": "190143b6-8f5e-4b7e-9d7e-28085c0ae370",
+          "id": "262520f2-915f-4d1b-aca9-5e0c195914e1",
           "finding_type": "vulnerability",
           "component_name": "debug",
           "component_version": "4.1.1",
@@ -25838,7 +25838,7 @@
           "confidence": null
         },
         {
-          "id": "ac5e1f0d-4387-43f8-9e02-df43e074f249",
+          "id": "84d53afc-90fa-4392-8cc5-2e9f7fd2c3c6",
           "finding_type": "vulnerability",
           "component_name": "validator",
           "component_version": "13.5.2",
@@ -25865,7 +25865,7 @@
           "confidence": null
         },
         {
-          "id": "915e7471-c002-407f-877e-3e237aeacf8b",
+          "id": "b2db4a04-d74a-4b19-8704-db5332fe4a10",
           "finding_type": "vulnerability",
           "component_name": "mpath",
           "component_version": "0.1.1",
@@ -25893,7 +25893,7 @@
           "confidence": null
         },
         {
-          "id": "ce710ce7-b04e-4010-8329-c432bf3fdafa",
+          "id": "5141f829-898f-4595-af20-c5b32cff44bd",
           "finding_type": "vulnerability",
           "component_name": "marked",
           "component_version": "0.3.5",
@@ -25920,7 +25920,7 @@
           "confidence": null
         },
         {
-          "id": "ea5b0d8f-4278-4ad9-8aeb-01e2d5094a5b",
+          "id": "fb912c03-0768-45c4-9f01-f09ae208fe8e",
           "finding_type": "vulnerability",
           "component_name": "mpath",
           "component_version": "0.1.1",
@@ -25948,7 +25948,7 @@
           "confidence": null
         },
         {
-          "id": "2a7c19ed-137a-4856-b809-eb5651aa9984",
+          "id": "c362046b-9266-491e-a982-70de044e9b94",
           "finding_type": "vulnerability",
           "component_name": "marked",
           "component_version": "0.3.5",
@@ -25975,7 +25975,7 @@
           "confidence": null
         },
         {
-          "id": "e5e4ce79-5118-448e-9cfb-a411c296f50d",
+          "id": "319cd364-56e3-4ff2-b02e-f3fbb9c5bfe5",
           "finding_type": "vulnerability",
           "component_name": "underscore",
           "component_version": "1.9.1",
@@ -26003,7 +26003,7 @@
           "confidence": null
         },
         {
-          "id": "bf98f0f4-d73e-4ae5-b4e5-260876605bcc",
+          "id": "d9e11eda-e8ea-43f6-a5a8-32f6e2fb822f",
           "finding_type": "vulnerability",
           "component_name": "body-parser",
           "component_version": "1.9.0",
@@ -26030,7 +26030,7 @@
           "confidence": null
         },
         {
-          "id": "21432c4c-30dd-4094-9df0-fecc503819d5",
+          "id": "78a206ae-2a13-4a46-9644-9bf46044d4b9",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -26058,7 +26058,7 @@
           "confidence": null
         },
         {
-          "id": "93975407-caef-4301-8923-116dc9f399c0",
+          "id": "ba8a726b-f007-4663-aa02-2342063d26df",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -26086,7 +26086,7 @@
           "confidence": null
         },
         {
-          "id": "832cd0ff-7f84-461c-b085-f29ffd70e01e",
+          "id": "2a049573-ac21-4e6a-93ff-2b7a6e0565b7",
           "finding_type": "vulnerability",
           "component_name": "sha.js",
           "component_version": "2.4.11",
@@ -26114,7 +26114,7 @@
           "confidence": null
         },
         {
-          "id": "df306ad4-eb64-47da-89f2-cdf3d98e03ff",
+          "id": "0ec864f5-44b6-4b6c-b5cf-c04f2a5394f9",
           "finding_type": "vulnerability",
           "component_name": "micromatch",
           "component_version": "3.1.10",
@@ -26143,7 +26143,7 @@
           "confidence": null
         },
         {
-          "id": "024278c4-40f1-4889-a2d1-34176f87c80f",
+          "id": "640c4081-d8c6-4dda-a784-0d553cb155b0",
           "finding_type": "vulnerability",
           "component_name": "xml2js",
           "component_version": "0.4.23",
@@ -26171,7 +26171,7 @@
           "confidence": null
         },
         {
-          "id": "b1b422fd-0e4d-4bfc-a589-5d2de8001095",
+          "id": "cd10e505-5761-481a-ad39-09e55f5f383b",
           "finding_type": "vulnerability",
           "component_name": "highlight.js",
           "component_version": "9.18.1",
@@ -26200,7 +26200,7 @@
           "confidence": null
         },
         {
-          "id": "5c8d62b6-ff79-4aef-b5e4-098519d08e22",
+          "id": "f93af726-7a93-4688-81d3-02ad9f28310b",
           "finding_type": "vulnerability",
           "component_name": "path-to-regexp",
           "component_version": "0.1.3",
@@ -26228,7 +26228,7 @@
           "confidence": null
         },
         {
-          "id": "fe6c87b9-5f2b-4189-97e3-4e8a6177ff81",
+          "id": "58f9f7b4-b094-4d1f-a07e-a2449c04578d",
           "finding_type": "vulnerability",
           "component_name": "ejs",
           "component_version": "0.8.8",
@@ -26256,7 +26256,7 @@
           "confidence": null
         },
         {
-          "id": "eea20659-8ed9-4e10-9b7a-5b520de92e2e",
+          "id": "06f4c227-ccd0-46a5-a703-e06126eb33ec",
           "finding_type": "vulnerability",
           "component_name": "ejs",
           "component_version": "1.0.0",
@@ -26283,7 +26283,7 @@
           "confidence": null
         },
         {
-          "id": "3edbc021-fee4-4c23-af9b-0a6074e8062c",
+          "id": "7c1809c4-7766-49d1-89f1-396b39c82901",
           "finding_type": "vulnerability",
           "component_name": "cross-spawn",
           "component_version": "4.0.2",
@@ -26312,7 +26312,7 @@
           "confidence": null
         },
         {
-          "id": "7b476d01-7e2f-41ab-8c74-fc3d3cac5b39",
+          "id": "02663cdd-e18d-4954-898c-eb3e8bb1a78d",
           "finding_type": "vulnerability",
           "component_name": "cross-spawn",
           "component_version": "5.1.0",
@@ -26344,7 +26344,7 @@
           "confidence": null
         },
         {
-          "id": "379a127b-2940-4786-97e8-1ab032a228fd",
+          "id": "edf891a5-2ed3-4c68-ad57-e291b3d4ef0a",
           "finding_type": "vulnerability",
           "component_name": "validator",
           "component_version": "13.5.2",
@@ -26371,7 +26371,7 @@
           "confidence": null
         },
         {
-          "id": "0fde2590-3d92-43c5-9233-b592c4b3aea8",
+          "id": "a10d3867-f97d-4403-8aef-77ce58d03686",
           "finding_type": "vulnerability",
           "component_name": "adm-zip",
           "component_version": "0.4.7",
@@ -26398,7 +26398,7 @@
           "confidence": null
         },
         {
-          "id": "3cc005bf-6109-415b-a883-d4582755612b",
+          "id": "4d3b2eba-2aba-4b15-845c-71f9b18052d1",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -26426,7 +26426,7 @@
           "confidence": null
         },
         {
-          "id": "d66920d9-d1fc-4497-9fc6-6c1c739e55e1",
+          "id": "706eefc3-24bb-4fe8-8b3e-86e2e85c5972",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -26454,7 +26454,7 @@
           "confidence": null
         },
         {
-          "id": "b4f9eb1a-7bc7-40ea-ab4a-ed62a8e9d14a",
+          "id": "c04d37fa-ad74-4ce4-8ce5-dc63672eca84",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -26482,7 +26482,7 @@
           "confidence": null
         },
         {
-          "id": "176cdba5-133c-4bc6-afa4-4b83d18b4bef",
+          "id": "2c09a21c-fe43-4cb3-8c25-55179ad73021",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -26510,7 +26510,7 @@
           "confidence": null
         },
         {
-          "id": "7ce7357f-98cd-4d03-b38a-36e2df8e5971",
+          "id": "da7c0fa6-f3f7-4507-9d33-9c637df2ee9d",
           "finding_type": "vulnerability",
           "component_name": "path-to-regexp",
           "component_version": "0.1.3",
@@ -26538,7 +26538,7 @@
           "confidence": null
         },
         {
-          "id": "6924bcae-b987-4ab5-9523-3568e0b4024d",
+          "id": "96ac07b4-4317-4525-8e5d-b0856638cf45",
           "finding_type": "vulnerability",
           "component_name": "path-to-regexp",
           "component_version": "0.1.3",
@@ -26566,7 +26566,7 @@
           "confidence": null
         },
         {
-          "id": "def9492c-41bf-4562-8065-46e7af0b8f4f",
+          "id": "46db886a-ff19-4a98-a61a-b10fc4c7ef84",
           "finding_type": "vulnerability",
           "component_name": "kerberos",
           "component_version": "0.0.24",
@@ -26596,7 +26596,7 @@
           "confidence": null
         },
         {
-          "id": "e97ce047-e0ed-4ac1-8567-d71ff5ae663d",
+          "id": "ca1fed28-0ac4-4c11-9ec7-a80d19ddb3a9",
           "finding_type": "vulnerability",
           "component_name": "ms",
           "component_version": "0.6.2",
@@ -26624,7 +26624,7 @@
           "confidence": null
         },
         {
-          "id": "35604992-5221-4447-a45c-31a9a1e74a60",
+          "id": "2c56bdc9-a194-4cc7-af47-e391023de346",
           "finding_type": "vulnerability",
           "component_name": "ms",
           "component_version": "0.7.1",
@@ -26652,7 +26652,7 @@
           "confidence": null
         },
         {
-          "id": "c803203f-fbaa-4802-9db0-7a8645dd0bca",
+          "id": "4068cb55-cee3-497a-9f42-5e0b3adfc6cd",
           "finding_type": "vulnerability",
           "component_name": "ms",
           "component_version": "0.7.3",
@@ -26679,7 +26679,7 @@
           "confidence": null
         },
         {
-          "id": "42a8bb4b-bdaa-46de-a747-23392f44c672",
+          "id": "aef2cdbe-bfb1-49d7-832b-b4ff9b29208c",
           "finding_type": "vulnerability",
           "component_name": "mquery",
           "component_version": "1.6.3",
@@ -26707,7 +26707,7 @@
           "confidence": null
         },
         {
-          "id": "b5a07b25-173c-466d-96d5-ee4052e58b53",
+          "id": "4994b3d5-bd61-4fc7-a764-63ccdfd958a0",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -26735,7 +26735,7 @@
           "confidence": null
         },
         {
-          "id": "d12c90de-bca7-44e1-aa0c-0d3d8d032c54",
+          "id": "c9a58d1e-d5b5-47ce-8201-4da15fd96771",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -26763,7 +26763,7 @@
           "confidence": null
         },
         {
-          "id": "c4641004-5217-4d85-9e5a-86e6102eedd3",
+          "id": "adcebaf7-8a9e-4908-a40b-f15bbc8d178e",
           "finding_type": "vulnerability",
           "component_name": "mongoose",
           "component_version": "4.2.4",
@@ -26790,7 +26790,7 @@
           "confidence": null
         },
         {
-          "id": "ade1e845-efbc-4156-9ab9-51c4213d9d53",
+          "id": "3da5e186-1fdc-4bba-bc90-5f915448e22c",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -26818,7 +26818,7 @@
           "confidence": null
         },
         {
-          "id": "b5fd199e-34b3-4e92-8870-324cbb87d476",
+          "id": "3093860c-c313-4346-bb6e-c04dcc626e3e",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -26846,7 +26846,7 @@
           "confidence": null
         },
         {
-          "id": "485add7f-8d47-4125-a3b1-f0d1d3b88f81",
+          "id": "65373e41-f173-4b7c-bd34-abb177943f2c",
           "finding_type": "vulnerability",
           "component_name": "brace-expansion",
           "component_version": "1.1.11",
@@ -26875,7 +26875,7 @@
           "confidence": null
         },
         {
-          "id": "3e55436d-01c6-48ff-aa9d-06cdced8f3e8",
+          "id": "00c8160a-ed14-413e-81ce-106de739dc3e",
           "finding_type": "vulnerability",
           "component_name": "babel-traverse",
           "component_version": "6.26.0",
@@ -26899,7 +26899,7 @@
           "confidence": null
         },
         {
-          "id": "8e737d25-cc94-4f77-bc56-02ebd115115e",
+          "id": "ad9b4f37-59c2-408d-b5ef-bc53f6200b23",
           "finding_type": "vulnerability",
           "component_name": "minimatch",
           "component_version": "3.0.4",
@@ -26927,7 +26927,7 @@
           "confidence": null
         },
         {
-          "id": "543b4478-3cd2-4e26-8b35-b87d618722f5",
+          "id": "48141f48-7e07-429d-8493-82d7cf400c27",
           "finding_type": "vulnerability",
           "component_name": "st",
           "component_version": "0.2.4",
@@ -26954,7 +26954,7 @@
           "confidence": null
         },
         {
-          "id": "76f7bdb2-f7d9-493e-a5ca-f975186070d8",
+          "id": "9a5748d5-a757-4c1d-b8ac-49fb9f5e3b54",
           "finding_type": "vulnerability",
           "component_name": "minimatch",
           "component_version": "3.0.4",
@@ -26982,7 +26982,7 @@
           "confidence": null
         },
         {
-          "id": "2191c8e0-e0c4-49ce-8d7b-657a36b7fce8",
+          "id": "f5569218-3a2d-43cf-b6d9-c58e9edc30ea",
           "finding_type": "vulnerability",
           "component_name": "mongoose",
           "component_version": "4.2.4",
@@ -27009,7 +27009,7 @@
           "confidence": null
         },
         {
-          "id": "dc3f65e3-b343-4976-aaa2-139546581fd2",
+          "id": "15e94ea5-8c63-4225-bb45-91fe1b331f22",
           "finding_type": "vulnerability",
           "component_name": "adm-zip",
           "component_version": "0.4.7",
@@ -27036,7 +27036,7 @@
           "confidence": null
         },
         {
-          "id": "16474bbe-fa1e-4b88-acf8-a94d5360a422",
+          "id": "3c771220-797b-4668-bba7-885c2787b4c8",
           "finding_type": "vulnerability",
           "component_name": "hbs",
           "component_version": "4.0.4",
@@ -27063,7 +27063,7 @@
           "confidence": null
         },
         {
-          "id": "f5d964ed-595f-463b-aad2-5a907aeb3d5c",
+          "id": "9f2e6df4-2dc5-4159-87e3-0d82c04dbfd6",
           "finding_type": "vulnerability",
           "component_name": "js-yaml",
           "component_version": "3.13.1",
@@ -27091,7 +27091,7 @@
           "confidence": null
         },
         {
-          "id": "64816c8e-8d56-4ca6-ae36-4d15d9a02362",
+          "id": "3a25961f-766c-4047-964d-bdd3e0dec6b4",
           "finding_type": "vulnerability",
           "component_name": "express",
           "component_version": "4.12.4",
@@ -27118,7 +27118,7 @@
           "confidence": null
         },
         {
-          "id": "916999c9-1ee0-44f9-b773-59cfdb3eac82",
+          "id": "ceb135df-10bb-4f08-b9c3-61555c863dc3",
           "finding_type": "vulnerability",
           "component_name": "brace-expansion",
           "component_version": "1.1.11",
@@ -27147,7 +27147,7 @@
           "confidence": null
         },
         {
-          "id": "3d5b977a-5e4f-4e58-b4f5-b7d3418f5b9e",
+          "id": "0a25c79d-6480-466a-82d5-af4aa0c5225f",
           "finding_type": "vulnerability",
           "component_name": "js-yaml",
           "component_version": "3.13.1",
@@ -27175,7 +27175,7 @@
           "confidence": null
         },
         {
-          "id": "fc66ab27-a869-402d-9e13-af03e4ee6931",
+          "id": "86b9ad0f-0183-404f-89b7-f15d28283d0e",
           "finding_type": "vulnerability",
           "component_name": "request",
           "component_version": "2.88.0",
@@ -27204,7 +27204,7 @@
           "confidence": null
         },
         {
-          "id": "6929f377-7cfd-43c4-bc3a-b70e5fcd9799",
+          "id": "942b18ab-e864-41a2-a4b3-bd691a3c6fb9",
           "finding_type": "vulnerability",
           "component_name": "bson",
           "component_version": "0.4.23",
@@ -27232,7 +27232,7 @@
           "confidence": null
         },
         {
-          "id": "73870bf1-577c-4361-b15b-a561a04319cc",
+          "id": "242b0af0-b4c7-44a5-88fe-80bd1e3f3b19",
           "finding_type": "vulnerability",
           "component_name": "figlet",
           "component_version": "1.5.0",
@@ -27261,7 +27261,7 @@
           "confidence": null
         },
         {
-          "id": "04d3c944-3cd9-4d19-85e1-9520ffbf117d",
+          "id": "8b0cd6d3-76e4-4679-a02a-0486d5ab139b",
           "finding_type": "vulnerability",
           "component_name": "minimatch",
           "component_version": "3.0.4",
@@ -27289,7 +27289,7 @@
           "confidence": null
         },
         {
-          "id": "7d7ca78d-dc05-4357-91b0-05a93bc9f3d4",
+          "id": "6f110aa5-c56b-4ce4-bbb2-a27dcd46dec4",
           "finding_type": "vulnerability",
           "component_name": "brace-expansion",
           "component_version": "1.1.11",
@@ -27318,7 +27318,7 @@
           "confidence": null
         },
         {
-          "id": "cb972176-7a20-4b65-ba3b-337226b49b90",
+          "id": "b4cabdd6-b896-4c9e-a275-96fbc91ad7a4",
           "finding_type": "vulnerability",
           "component_name": "brace-expansion",
           "component_version": "1.1.11",
@@ -27347,7 +27347,7 @@
           "confidence": null
         },
         {
-          "id": "39972a41-d185-42e4-94b7-1855a7b373f6",
+          "id": "3ba74ff9-739a-48de-a474-847efff6c454",
           "finding_type": "vulnerability",
           "component_name": "marked",
           "component_version": "0.3.5",
@@ -27374,7 +27374,7 @@
           "confidence": null
         },
         {
-          "id": "33009755-8e85-40dc-a92a-d65eaf166f15",
+          "id": "5fff6269-ef99-43f9-bcab-462f95d9d5c3",
           "finding_type": "vulnerability",
           "component_name": "mongoose",
           "component_version": "4.2.4",
@@ -27401,7 +27401,7 @@
           "confidence": null
         },
         {
-          "id": "2b2a2a9d-3144-4567-b13d-1c9c15d31f26",
+          "id": "a90c7e66-83b9-4ecb-ae5a-05661f831033",
           "finding_type": "vulnerability",
           "component_name": "ejs",
           "component_version": "0.8.8",
@@ -27429,7 +27429,7 @@
           "confidence": null
         },
         {
-          "id": "dcf0d1cb-611e-424d-8f67-51afb3462058",
+          "id": "aeef58ec-10ad-4f12-9a0f-f2100959f026",
           "finding_type": "vulnerability",
           "component_name": "ejs",
           "component_version": "1.0.0",
@@ -27456,7 +27456,7 @@
           "confidence": null
         },
         {
-          "id": "4bc5b8fb-30f7-4b90-af5e-0855b9a01ead",
+          "id": "2461b731-7957-4179-9563-571f124f7008",
           "finding_type": "vulnerability",
           "component_name": "decode-uri-component",
           "component_version": "0.2.0",
@@ -27480,7 +27480,7 @@
           "confidence": null
         },
         {
-          "id": "599dee5e-e9aa-49e0-8b9c-e37291ff9cdf",
+          "id": "010ae488-b1df-4d23-8ae0-105f274b4636",
           "finding_type": "vulnerability",
           "component_name": "body-parser",
           "component_version": "1.9.0",
@@ -27507,7 +27507,7 @@
           "confidence": null
         },
         {
-          "id": "d7565ec2-fa76-4808-95aa-15abc53d3877",
+          "id": "0cd31fe1-0f07-4661-a449-990466fb1897",
           "finding_type": "vulnerability",
           "component_name": "mongoose",
           "component_version": "4.2.4",
@@ -27534,7 +27534,7 @@
           "confidence": null
         },
         {
-          "id": "cd2870d2-130f-4f34-bf1b-27bea62cb7fa",
+          "id": "23e0fb8c-e13e-4a9d-a726-6dc4d4259fac",
           "finding_type": "vulnerability",
           "component_name": "brace-expansion",
           "component_version": "1.1.11",
@@ -27563,7 +27563,7 @@
           "confidence": null
         },
         {
-          "id": "0916c0a6-1ca5-4e70-a6e7-daf549b78c52",
+          "id": "db440891-9c4e-48a1-b1da-bbecd26bf015",
           "finding_type": "vulnerability",
           "component_name": "ajv",
           "component_version": "6.10.2",
@@ -27594,7 +27594,7 @@
           "confidence": null
         },
         {
-          "id": "79c4287f-bb7e-4555-b25c-7e4b461f6dd7",
+          "id": "fce7e451-06f8-4c9c-9e1a-836a437ee0f5",
           "finding_type": "vulnerability",
           "component_name": "yargs-parser",
           "component_version": "8.1.0",
@@ -27623,7 +27623,7 @@
           "confidence": null
         },
         {
-          "id": "2050f963-d125-4e77-aecd-3f71a9023342",
+          "id": "ad98bffb-2c51-4a62-aff7-cc7eff9ec6fb",
           "finding_type": "vulnerability",
           "component_name": "yargs-parser",
           "component_version": "9.0.2",
@@ -27653,7 +27653,7 @@
           "confidence": null
         },
         {
-          "id": "c348d660-87c9-480f-b66a-411d0ae3b75a",
+          "id": "738c099f-251f-467a-a1a6-c1fe22a531c6",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -27681,7 +27681,7 @@
           "confidence": null
         },
         {
-          "id": "b786901c-9b0e-4858-bc00-08ed326a2d85",
+          "id": "83ecb55c-4f12-4c44-b8e7-04e78eac6094",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -27709,7 +27709,7 @@
           "confidence": null
         },
         {
-          "id": "8fd76ccc-c919-4211-a14d-d7aa0720cc09",
+          "id": "535f3fe6-459a-4f63-bd80-63baf18e25e3",
           "finding_type": "vulnerability",
           "component_name": "brace-expansion",
           "component_version": "1.1.11",
@@ -27738,7 +27738,7 @@
           "confidence": null
         },
         {
-          "id": "63d042af-48af-4b45-b95e-9743b75ba6ab",
+          "id": "ad22496b-b46e-4c8d-b1e3-a2b197948001",
           "finding_type": "vulnerability",
           "component_name": "mongoose",
           "component_version": "4.2.4",
@@ -27765,7 +27765,7 @@
           "confidence": null
         },
         {
-          "id": "a34b0ec9-7956-4701-b1fa-19ea7708917b",
+          "id": "e3ab00e1-ca8e-4d78-973e-801ee81c5164",
           "finding_type": "vulnerability",
           "component_name": "decode-uri-component",
           "component_version": "0.2.0",
@@ -27789,7 +27789,7 @@
           "confidence": null
         },
         {
-          "id": "896092ea-4696-486e-9c8c-5afd271c85ad",
+          "id": "263b8524-04b1-4ab6-bda5-afa97f109485",
           "finding_type": "vulnerability",
           "component_name": "uuid",
           "component_version": "3.3.2",
@@ -27817,7 +27817,7 @@
           "confidence": null
         },
         {
-          "id": "873a55f8-199c-405e-8d20-85b4c03ccde4",
+          "id": "18db2f36-84bd-4779-a3e9-586090ffb717",
           "finding_type": "vulnerability",
           "component_name": "qs",
           "component_version": "2.2.4",
@@ -27845,7 +27845,7 @@
           "confidence": null
         },
         {
-          "id": "84376c9c-dbcc-4bcf-9040-8f8d79a9dbb4",
+          "id": "cad69699-e4d7-4f04-9310-2866e0b3dbd5",
           "finding_type": "vulnerability",
           "component_name": "qs",
           "component_version": "2.4.2",
@@ -27873,7 +27873,7 @@
           "confidence": null
         },
         {
-          "id": "5d3d570d-b37e-406f-bcad-239f3c39917b",
+          "id": "4eeee511-46f9-4b24-a5d4-9e2145b289af",
           "finding_type": "vulnerability",
           "component_name": "qs",
           "component_version": "6.5.2",
@@ -27903,7 +27903,7 @@
           "confidence": null
         },
         {
-          "id": "a7d826c4-e269-44df-a1db-a10d1338951d",
+          "id": "962dc45d-2a7e-4295-8576-0936db7f79f4",
           "finding_type": "vulnerability",
           "component_name": "cookie",
           "component_version": "0.1.2",
@@ -27931,7 +27931,7 @@
           "confidence": null
         },
         {
-          "id": "1e2ae2d5-7f8b-4c4d-b113-8f8bbea8e097",
+          "id": "38b2d912-fe6e-4021-811e-ccc7d4e6111f",
           "finding_type": "vulnerability",
           "component_name": "cookie",
           "component_version": "0.4.1",
@@ -27959,7 +27959,7 @@
           "confidence": null
         },
         {
-          "id": "d70022da-1482-4013-8330-625bf2a14615",
+          "id": "9cb7117c-d4ee-4fff-b430-65e3bd57d072",
           "finding_type": "vulnerability",
           "component_name": "brace-expansion",
           "component_version": "1.1.11",
@@ -27988,7 +27988,7 @@
           "confidence": null
         },
         {
-          "id": "a36512a9-4622-4870-8a3c-19796b1ccd7c",
+          "id": "cf92e99b-e097-4d2d-a9e8-116bc2016942",
           "finding_type": "vulnerability",
           "component_name": "js-yaml",
           "component_version": "3.13.1",
@@ -28016,7 +28016,7 @@
           "confidence": null
         },
         {
-          "id": "96441d33-454d-4b9b-b705-d0f4dbf255e4",
+          "id": "02fde1d1-7e2e-4b96-ae7b-762b66936b54",
           "finding_type": "vulnerability",
           "component_name": "qs",
           "component_version": "2.4.2",
@@ -28044,7 +28044,7 @@
           "confidence": null
         },
         {
-          "id": "6fc4dd6f-658a-4b18-9c15-7a9da173361f",
+          "id": "b717ef30-b3d7-4c04-b283-26193eba4955",
           "finding_type": "vulnerability",
           "component_name": "qs",
           "component_version": "6.5.2",
@@ -28074,7 +28074,7 @@
           "confidence": null
         },
         {
-          "id": "77eb2cf2-cfe4-4d93-9124-67f0f45f5318",
+          "id": "30a8f4b8-a8ae-4f16-96f8-1580323fce88",
           "finding_type": "vulnerability",
           "component_name": "js-yaml",
           "component_version": "3.13.1",
@@ -28102,7 +28102,7 @@
           "confidence": null
         },
         {
-          "id": "1484595b-3b23-4d72-9471-a85ec22e4111",
+          "id": "40dde5af-a674-4ba2-bbc6-226aa79426c5",
           "finding_type": "vulnerability",
           "component_name": "morgan",
           "component_version": "1.10.0",
@@ -28129,7 +28129,7 @@
           "confidence": null
         },
         {
-          "id": "9d2d0d84-0edf-4138-b123-6b5150786cad",
+          "id": "e7be99d5-83f5-4588-90ec-1ff1234d7f29",
           "finding_type": "vulnerability",
           "component_name": "serve-static",
           "component_version": "1.9.3",
@@ -28157,7 +28157,7 @@
           "confidence": null
         },
         {
-          "id": "ffa53711-1c88-44e1-8747-eb53f8ac52ab",
+          "id": "c94add41-9656-49f1-ac91-7ec9fd37f110",
           "finding_type": "vulnerability",
           "component_name": "typeorm",
           "component_version": "0.2.24",
@@ -28184,7 +28184,7 @@
           "confidence": null
         },
         {
-          "id": "3af068a3-c11e-4bdf-8778-8b314d112f04",
+          "id": "edc80dc0-41af-4c99-a5d2-6ce79f2e132f",
           "finding_type": "vulnerability",
           "component_name": "mongoose",
           "component_version": "4.2.4",
@@ -28211,7 +28211,7 @@
           "confidence": null
         },
         {
-          "id": "36d9af13-8f9a-45a2-b3db-6cf910a4129c",
+          "id": "eab0cbea-83cd-4d2e-95ed-43f6c59cc146",
           "finding_type": "vulnerability",
           "component_name": "morgan",
           "component_version": "1.10.0",
@@ -28238,7 +28238,7 @@
           "confidence": null
         },
         {
-          "id": "a5186e1d-107a-4d4c-a990-db0396831f47",
+          "id": "c734aeff-8d5d-4a9c-93f5-465e04e20a81",
           "finding_type": "vulnerability",
           "component_name": "typeorm",
           "component_version": "0.2.24",
@@ -28265,7 +28265,7 @@
           "confidence": null
         },
         {
-          "id": "4c68093e-3a1c-4ac8-a539-8cc9d5ae1423",
+          "id": "4d712c32-ca9b-4521-9eb9-f9b39c4ca973",
           "finding_type": "vulnerability",
           "component_name": "send",
           "component_version": "0.12.3",
@@ -28293,7 +28293,7 @@
           "confidence": null
         },
         {
-          "id": "53fce4f9-bd3e-4811-9703-2e2857a35fca",
+          "id": "2eb2f08d-0bd2-42ab-86b6-df8e9e6abf2d",
           "finding_type": "vulnerability",
           "component_name": "validator",
           "component_version": "13.5.2",
@@ -28320,7 +28320,7 @@
           "confidence": null
         },
         {
-          "id": "7687da3b-891c-4def-b3dc-66c4153e5400",
+          "id": "0236e505-fa7e-42c6-ba0b-2f579eeab61b",
           "finding_type": "vulnerability",
           "component_name": "diff",
           "component_version": "1.4.0",
@@ -28349,7 +28349,7 @@
           "confidence": null
         },
         {
-          "id": "f08f7461-d330-4ea5-83d4-2620b64a0581",
+          "id": "2fe0519e-7a29-4de0-9d0b-d4c8ca60c934",
           "finding_type": "vulnerability",
           "component_name": "morgan",
           "component_version": "1.10.0",
@@ -28376,7 +28376,7 @@
           "confidence": null
         },
         {
-          "id": "2580e1dd-bc09-42e3-babb-4c64f8de40c1",
+          "id": "15aec7f5-b94a-4dd2-9792-67112c79d41d",
           "finding_type": "vulnerability",
           "component_name": "express",
           "component_version": "4.12.4",
@@ -28403,7 +28403,7 @@
           "confidence": null
         },
         {
-          "id": "cafbfbe3-9ecf-4bf0-8adc-6b680cf69492",
+          "id": "c2a9bfe3-db9a-4678-8d8e-57dd7df7419b",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -28431,7 +28431,7 @@
           "confidence": null
         },
         {
-          "id": "b4dc13d1-25fe-4d6b-85cf-df786bce5937",
+          "id": "4cedf224-b4b2-46ac-9ca1-9c775aad90c4",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -28459,7 +28459,7 @@
           "confidence": null
         },
         {
-          "id": "cb5f7533-b244-4f28-a429-cbf8b5a8d2cd",
+          "id": "69c42072-07bd-4a25-ae1b-ac9e5846c142",
           "finding_type": "vulnerability",
           "component_name": "brace-expansion",
           "component_version": "1.1.11",
@@ -28488,7 +28488,7 @@
           "confidence": null
         },
         {
-          "id": "2ee40b6d-32b8-4dcb-9bd3-16bfb434cb81",
+          "id": "2c4c6d88-cd8a-49cc-a45b-94168ae46085",
           "finding_type": "vulnerability",
           "component_name": "adm-zip",
           "component_version": "0.4.7",
@@ -28515,7 +28515,7 @@
           "confidence": null
         },
         {
-          "id": "e133294a-658e-4ae2-8b98-f6a00cb17fa2",
+          "id": "26b48fc2-6da8-4870-acde-ea06f1f3cc02",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -28543,7 +28543,7 @@
           "confidence": null
         },
         {
-          "id": "8661fe3b-601a-4690-9087-60cfd5dd1d9f",
+          "id": "3d6e181f-9e97-46dd-8fc7-e09a5fb6ed63",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -28571,7 +28571,7 @@
           "confidence": null
         },
         {
-          "id": "e55ff32d-5928-410c-ac07-ecd400c16588",
+          "id": "a019b058-bb95-405f-a093-f3e3f85d13e9",
           "finding_type": "vulnerability",
           "component_name": "body-parser",
           "component_version": "1.9.0",
@@ -28598,7 +28598,7 @@
           "confidence": null
         },
         {
-          "id": "60747b08-ab93-473a-b289-a2b1108dc3a6",
+          "id": "23e950ba-755f-421a-b2ab-04a76f36e306",
           "finding_type": "vulnerability",
           "component_name": "on-headers",
           "component_version": "1.0.2",
@@ -28626,7 +28626,7 @@
           "confidence": null
         },
         {
-          "id": "7f6a84fc-0881-4bd4-82fc-65d2edcca16a",
+          "id": "154eadd4-b124-4f6e-80ec-8b4370d143c7",
           "finding_type": "vulnerability",
           "component_name": "mongoose",
           "component_version": "4.2.4",
@@ -28653,7 +28653,7 @@
           "confidence": null
         },
         {
-          "id": "ff8d451c-b718-46e6-9d81-6c05e6e4706c",
+          "id": "128eac73-3517-4fb7-87f5-393379bb1e3a",
           "finding_type": "vulnerability",
           "component_name": "adm-zip",
           "component_version": "0.4.7",
@@ -28679,7 +28679,7 @@
           "confidence": null
         },
         {
-          "id": "9c30af3a-ab61-405e-a3a0-0e80b756c309",
+          "id": "0442f11b-3aa8-45f3-ab5a-1665d93e8783",
           "finding_type": "vulnerability",
           "component_name": "adm-zip",
           "component_version": "0.4.7",
@@ -28705,7 +28705,7 @@
           "confidence": null
         },
         {
-          "id": "aa1bc9a8-e2e1-4050-886c-c7a6824ee5da",
+          "id": "edf95bd3-2958-4f1d-b24e-32a02e282e89",
           "finding_type": "vulnerability",
           "component_name": "diff",
           "component_version": "1.4.0",
@@ -28733,7 +28733,7 @@
           "confidence": null
         },
         {
-          "id": "d1596f08-00ff-4ce5-9448-ccb3c0320b92",
+          "id": "c0bb8c44-6742-4c71-817e-f6ca1fd0c10d",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -28760,7 +28760,7 @@
           "confidence": null
         },
         {
-          "id": "18690763-a51b-40c8-8ca9-daa76fb54cf8",
+          "id": "bfea3576-9971-422c-aa32-26a011bf66eb",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -28787,7 +28787,7 @@
           "confidence": null
         },
         {
-          "id": "389b33e3-c932-4c6f-aed1-be525afe986b",
+          "id": "6667086e-4751-4b47-890e-8ddcbd3a04b1",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -28814,7 +28814,7 @@
           "confidence": null
         },
         {
-          "id": "3c5cd26a-46d7-4d96-a9d8-7e6ae8641aee",
+          "id": "5623776f-a684-424a-8a6c-c4753f9436ca",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -28841,7 +28841,7 @@
           "confidence": null
         },
         {
-          "id": "e4965808-33d6-4e00-b972-af5b1c90ebc9",
+          "id": "4f83b251-6299-41de-843e-d03e504ccfd8",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -28868,7 +28868,7 @@
           "confidence": null
         },
         {
-          "id": "efaeba58-f8c4-4f49-8a2b-135e3708649c",
+          "id": "3488dd04-faaa-4851-a728-d5e968724076",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -28895,7 +28895,7 @@
           "confidence": null
         },
         {
-          "id": "b1943980-9b43-41e6-adf0-de7c188878da",
+          "id": "49fa83ab-10c3-433a-9402-da007c497f0b",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -28922,7 +28922,7 @@
           "confidence": null
         },
         {
-          "id": "d75c8ddb-3350-4f50-a786-bd849116299c",
+          "id": "a0d6810b-c4d4-4115-9523-28642887239e",
           "finding_type": "vulnerability",
           "component_name": "js-yaml",
           "component_version": "3.13.1",
@@ -28949,7 +28949,7 @@
           "confidence": null
         },
         {
-          "id": "fcad9231-5bd6-47cf-98d1-03f9c44dcb35",
+          "id": "294b5b03-a766-4240-bc84-a1a36850d5a6",
           "finding_type": "vulnerability",
           "component_name": "mongodb",
           "component_version": "2.0.46",
@@ -28976,7 +28976,7 @@
           "confidence": null
         },
         {
-          "id": "edd3d227-3f54-47e4-8112-2ca59ec8ca9f",
+          "id": "e74e25fd-7ca9-4206-81d6-a1ed07dc62e9",
           "finding_type": "vulnerability",
           "component_name": "adm-zip",
           "component_version": "0.4.7",
@@ -29002,7 +29002,7 @@
           "confidence": null
         },
         {
-          "id": "2fa5ce4f-b8f3-4dbc-a3de-9c9ceea6bc5e",
+          "id": "7de22030-0a6e-478c-bbab-6bc31788710e",
           "finding_type": "vulnerability",
           "component_name": "adm-zip",
           "component_version": "0.4.7",
@@ -29028,7 +29028,7 @@
           "confidence": null
         },
         {
-          "id": "886e3ec7-e571-4c16-a09c-43c191933783",
+          "id": "9bece137-14c3-4489-9527-77abae083d42",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -29055,7 +29055,7 @@
           "confidence": null
         },
         {
-          "id": "5297aa1b-ee48-41a1-a2df-043965ad701b",
+          "id": "4ea4d3e0-fd12-4491-8c1c-23e4f74fac38",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -29082,7 +29082,7 @@
           "confidence": null
         },
         {
-          "id": "05515520-a76d-49d1-aba8-8c632f8833ea",
+          "id": "c8d3fdd1-2e7e-42f0-90fd-a26751ea2b0d",
           "finding_type": "vulnerability",
           "component_name": "highlight.js",
           "component_version": "9.18.1",
@@ -29110,7 +29110,7 @@
           "confidence": null
         },
         {
-          "id": "2f257309-be23-4161-9cfb-508706b3918f",
+          "id": "df84565f-8856-4685-9767-706c3317d3a9",
           "finding_type": "vulnerability",
           "component_name": "mem",
           "component_version": "1.1.0",
@@ -29133,7 +29133,7 @@
           "confidence": null
         },
         {
-          "id": "ec487414-6215-4dde-ae95-10e7272e5329",
+          "id": "32a856eb-7cf4-4243-a0c4-e57e010054fa",
           "finding_type": "vulnerability",
           "component_name": "mongoose",
           "component_version": "4.2.4",
@@ -29159,7 +29159,7 @@
           "confidence": null
         },
         {
-          "id": "2c6c7a31-8133-45af-8e28-bdda3bd0b7ae",
+          "id": "9c11c999-9578-4397-b386-0afa1e25072f",
           "finding_type": "vulnerability",
           "component_name": "npmconf",
           "component_version": "0.0.24",
@@ -29185,7 +29185,7 @@
           "confidence": null
         },
         {
-          "id": "d3c43d43-8f0d-4fc4-8a01-a2f13d0f13e7",
+          "id": "697f19f5-999a-45fb-96a9-69906fd0a8dc",
           "finding_type": "vulnerability",
           "component_name": "typeorm",
           "component_version": "0.2.24",
@@ -29211,7 +29211,7 @@
           "confidence": null
         },
         {
-          "id": "ce7d23ef-7039-419d-94b6-10e1913a9fab",
+          "id": "21dcf9b9-782a-4711-9408-a8690bde5daf",
           "finding_type": "vulnerability",
           "component_name": "validator",
           "component_version": "13.5.2",
@@ -29237,7 +29237,7 @@
           "confidence": null
         },
         {
-          "id": "f0c3ac82-7edf-4c73-9889-a93a7dd87367",
+          "id": "17c81491-00a1-47d1-a48b-e2b5d7269a92",
           "finding_type": "vulnerability",
           "component_name": "express-fileupload",
           "component_version": "0.0.5",
@@ -29263,7 +29263,7 @@
           "confidence": null
         },
         {
-          "id": "dcd2ced3-b95b-4b45-80f9-9837ef53197a",
+          "id": "7de15fcf-22d8-400e-9524-bafdc84915b4",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.11",
@@ -29290,7 +29290,7 @@
           "confidence": null
         },
         {
-          "id": "bef2b3fe-51c4-4e7d-b11e-ba97157ef559",
+          "id": "088beefa-acef-4ef3-85c2-a41858dff62d",
           "finding_type": "vulnerability",
           "component_name": "handlebars",
           "component_version": "4.0.14",
@@ -29338,7 +29338,7 @@
       "components": [],
       "findings": [
         {
-          "id": "6ed23ef0-0636-4a6e-b237-4ac42e2f04dc",
+          "id": "65bf3543-ddab-4e9c-b84a-509efc7e5802",
           "finding_type": "unpinned_version",
           "component_name": "method-override",
           "component_version": "latest",
@@ -29361,7 +29361,7 @@
           "confidence": "high"
         },
         {
-          "id": "b59bf5f6-dc12-4392-80a1-c4338b735208",
+          "id": "26dbd2ba-a4ae-4ce8-bcc5-127efce11fe2",
           "finding_type": "unpinned_version",
           "component_name": "morgan",
           "component_version": "latest",
@@ -29384,7 +29384,7 @@
           "confidence": "high"
         },
         {
-          "id": "43445e31-990e-4e9e-a045-78189f208c88",
+          "id": "b4a08b94-5d1a-48dd-a884-2bda940cf1fd",
           "finding_type": "untrusted_image",
           "component_name": "node",
           "component_version": "18.13.0",
@@ -29405,7 +29405,7 @@
           "confidence": "medium"
         },
         {
-          "id": "dea93afe-9519-46e0-9709-ab609ad1f5be",
+          "id": "dd965e59-8848-47c4-8651-3f8546d3f6c0",
           "finding_type": "unsafe_ci",
           "component_name": "actions/checkout",
           "component_version": "v3",
@@ -29424,7 +29424,7 @@
           "confidence": "medium"
         },
         {
-          "id": "ddedc3c2-733f-4b56-ae04-5573b58f87ab",
+          "id": "7c8a32f3-5551-4262-8f4d-ac740aafe302",
           "finding_type": "unsafe_ci",
           "component_name": "actions/checkout",
           "component_version": "v3",
@@ -29443,7 +29443,7 @@
           "confidence": "medium"
         },
         {
-          "id": "fb983274-811a-4db2-979f-ec4a24ab4efe",
+          "id": "d1eb50be-620f-4a70-88d2-a5c38db60df5",
           "finding_type": "unsafe_ci",
           "component_name": "actions/checkout",
           "component_version": "v3",
@@ -29462,7 +29462,7 @@
           "confidence": "medium"
         },
         {
-          "id": "8184b7cc-a967-4c03-8ae3-195b1e0e20ad",
+          "id": "4962564d-4747-45ac-aa70-934ccaec2387",
           "finding_type": "unsafe_ci",
           "component_name": "actions/checkout",
           "component_version": "v3",
@@ -29485,9 +29485,9 @@
       "metadata": {
         "signals_detected": 7,
         "signal_types": [
+          "unpinned_version",
           "untrusted_image",
-          "unsafe_ci",
-          "unpinned_version"
+          "unsafe_ci"
         ]
       },
       "errors": []
@@ -29499,10 +29499,10 @@
       "elements": [],
       "metadata": {
         "ai_engine": "Groq (openai/gpt-oss-120b)",
-        "reachability_agent_assessment": "**Immediate attack surface (direct imports).** The repository imports three components that are themselves vulnerable:\u202f`ejs@1.0.0` (CVE\u20112022\u201129078 / GHSA\u2011phwq\u2011j96m\u20112c2q) is pulled straight from the root (`<root> \u2192 ejs@1.0.0`);\u202f`typeorm@0.2.24` (CVE\u20112022\u201133171 / GHSA\u2011fx4w\u2011v43j\u2011vc45) appears as `<root> \u2192 typeorm@0.2.24`; and\u202f`mongoose@4.2.4` (CVE\u20112025\u201123061 / GHSA\u2011vg7j\u20117cwx\u20118wgw) is also a top\u2011level dependency (`<root> \u2192 mongoose@4.2.4`). Because these packages are required directly by the application, any exploit against the listed CVEs can be triggered without additional dependency resolution, making them the highest\u2011priority remediation targets (upgrade to\u202fejs\u202f\u2265\u202f3.1.7,\u202ftypeorm\u202f\u2265\u202f0.3.0,\u202fmongoose\u202f\u2265\u202f6.13.6).\n\n**Deep transitive reachability (indirect imports).** Two vulnerable libraries are only reachable through other packages:\u202f`ejs@0.8.8` (same CVE as the direct ejs) is pulled via the legacy wrapper `ejs\u2011locals@1.0.2` (`<root> \u2192 ejs\u2011locals@1.0.2 \u2192 ejs@0.8.8`), and the `handlebars` family (versions\u202f4.0.11/4.0.14) is introduced by `hbs@4.0.4` (`<root> \u2192 hbs@4.0.4 \u2192 handlebars@4.0.14`). Both handlebars versions are vulnerable to CVE\u20112019\u201119919, CVE\u20112021\u201123369 and lack a direct fix in the current lockfile; they must be upgraded (",
-        "context_analysis_assessment": "The repository relies on several **unpinned runtime dependencies** (`method\u2011override` and `morgan` both declared as `latest`). Because the exact version is resolved at each install, the build is non\u2011deterministic: a future release of either package could introduce new bugs, supply\u2011chain attacks, or the very critical vulnerabilities already listed (e.g., the direct `ejs@1.0.0` and `typeorm@0.2.24` issues). An attacker who compromises the public npm registry or injects malicious code into a newly published `latest` release would automatically be pulled into every downstream build, widening the attack surface without any alert in the CI pipeline.\n\nIn addition, the Dockerfile uses the mutable tag `node:18.13.0` rather than a digest\u2011pinned image, and the GitHub Actions workflows reference `actions/checkout@v3` by tag. Both practices inherit any future security patches\u2014or malicious changes\u2014applied to the upstream image or action, making the container and CI environment susceptible to OS\u2011level CVEs and to compromised third\u2011party actions. Pinning the base image to a specific digest and fixing actions to immutable commit SHAs restores reproducibility, limits exposure to newly disclosed vulnerabilities, and prevents an attacker from silently injecting malicious code into the build pipeline.",
-        "risk_analysis_assessment": "## \ud83d\udcca Security Posture & Business\u2011Risk Summary for **`goof`** (commit `add14ba59e9\u2026`)\n\n| **Area** | **Findings** | **Impact on the Application** | **Recommended Action** | **Risk Level** |\n|----------|--------------|--------------------------------|------------------------|----------------|\n| **Critical Vulnerabilities** | 5 distinct packages with **critical CVEs** (total\u202f8 CVE entries).<br>\u2022 **Direct**: `ejs@1.0.0` (CVE\u20112022\u201129078), `typeorm@0.2.24` (CVE\u20112022\u201133171), `mongoose@4.2.4` (CVE\u20112025\u201123061).<br>\u2022 **Transitive**: `ejs@0.8.8` (via `ejs\u2011locals`), `handlebars@4.0.11/4.0.14` (via `hbs`). | Exploits can be triggered **without any additional code path** (direct deps) or via a single transitive import. All affect server\u2011side rendering, ORM query handling, and template injection \u2013\u202fpotential for remote code execution, data leakage, or privilege escalation. | \u2022 Upgrade **direct** deps to fixed versions: `ejs \u2265\u202f3.1.7`, `typeorm \u2265\u202f0.3.0`, `mongoose \u2265\u202f6.13.6`.<br>\u2022 Replace or patch **transitive** chain: upgrade `ejs\u2011locals` to a version that uses a safe `ejs`, or remove it; upgrade `hbs` to \u2265\u202f4.1.2 (which pulls `handlebars \u2265\u202f4.7.7`).<br>\u2022 Run `npm audit fix --force` **only after testing**; otherwise manually bump versions in `package.json` and lockfile. | **High** \u2013 exploitable flaws are present in code that runs in production. |\n| **Unpinned Runtime Dependencies** | `method-override` and `morgan` are declared as `latest`. | Future releases could introduce **new, unvetted code** (including supply\u2011chain compromises) that would be automatically pulled into every build, widening the attack surface silently. | Pin to a specific,",
-        "recommendation_agent_actions": "## \ud83c\udfaf\u202fPrioritized 4\u2011step remediation plan for **`goof`** (commit `add14ba59e9\u2026`)\n\n> **Goal:** Eliminate every *critical* CVE, lock the dependency graph, and harden the build\u2011pipeline.  \n> **Assumption:** The project uses **npm** (not yarn) and the lock\u2011file is `package\u2011lock.json`. All changes should be committed and the CI pipeline re\u2011run after each step.\n\n| Step | What you\u2019ll do | Why it matters | Exact `npm` commands (run from the repo root) |\n|------|----------------|----------------|----------------------------------------------|\n| **1\ufe0f\u20e3 Upgrade all **direct** vulnerable packages** | Bring the three direct dependencies to the versions that contain the official fixes. | Direct CVEs can be triggered without any extra code path \u2013 they are the highest\u2011impact bugs. | ```bash\\n# Upgrade EJS (fixes CVE\u20112022\u201129078)\\nnpm install ejs",
+        "reachability_agent_assessment": "**Directly imported vulnerable components (immediate attack surface).**  \nThe repository imports three packages that are flagged as critical and are listed as\u202f`is_direct: true`.\u202fThese are **ejs@1.0.0** (path\u202f`<root> \u2192 ejs@1.0.0`), **typeorm@0.2.24** (path\u202f`<root> \u2192 typeorm@0.2.24`) and **mongoose@4.2.4** (path\u202f`<root> \u2192 mongoose@4.2.4`). Because they are top\u2011level dependencies, any exploit of CVE\u20112022\u201129078 (ejs), CVE\u20112022\u201133171 (typeorm) or CVE\u20112025\u201123061 (mongoose) can be triggered directly by the application code without needing to traverse additional modules, making them the highest\u2011priority remediation targets.\n\n**Deep transitive vulnerable components (secondary attack surface).**  \nTwo additional critical packages are pulled in through other libraries: **ejs@0.8.8** (path\u202f`<root> \u2192 ejs\u2011locals@1.0.2 \u2192 ejs@0.8.8`) and **handlebars** versions\u202f4.0.14/4.0.11 (path\u202f`<root> \u2192 hbs@4.0.4 \u2192 handlebars@4.0.14`). Both inherit the same CVE\u20112022\u201129078 as the direct ejs version, and the handlebars versions are vulnerable to CVE\u20112019\u201119919 and CVE\u20112021\u201123369. Although these lie one or two hops away from the root, an attacker who can influence or compromise the intermediate packages (ejs\u2011locals, hbs) could chain into the vulnerable code, expanding the supply\u2011chain risk surface. Remediation should start with the direct dependencies, then upgrade or replace the transitive ejs\u2011locals \u2192 ejs and hbs \u2192 handlebars chains to the fixed versions (ejs\u202f\u2265\u202f3.1.7, handlebars\u202f\u2265\u202f4.3.0 /\u202f4.7.7",
+        "context_analysis_assessment": "The repository\u2019s dependency manifest relies on \u201clatest\u201d tags for\u202f`method\u2011override`\u202fand\u202f`morgan`. Because the exact version is resolved at each install, builds are non\u2011deterministic: a future release of either package could introduce new bugs, license changes, or malicious code without any change to the source tree. This amplifies the attack surface, especially given the existing critical vulnerabilities in direct dependencies such as\u202f`ejs@1.0.0`,\u202f`typeorm@0.2.24`, and\u202f`mongoose@4.2.4`. An automated supply\u2011chain compromise (e.g., a malicious \u201clatest\u201d publish) would instantly flow into every downstream build, making remediation and reproducibility extremely difficult.\n\nThe Dockerfile pins the base image only to the mutable tag\u202f`node:18.13.0`. That tag can be retagged to a newer build that may contain unpatched OS\u2011level CVEs or even injected backdoors, propagating risk to every container derived from it. Likewise, the CI workflows reference the mutable tag\u202f`actions/checkout@v3` for both CodeQL and Snyk scans. Using a floating action version allows an attacker who compromises the upstream action repository to inject malicious steps that run with the repository\u2019s credentials. Together, these unpinned components break the reproducibility guarantees of the build pipeline, increase the likelihood of silent supply\u2011chain attacks, and hinder timely detection and patching of the known critical vulnerabilities already present in the project\u2019s dependency graph.",
+        "risk_analysis_assessment": "## \ud83d\udcca Security Posture & Business\u2011Risk Summary for **`goof`** (commit `add14ba59e98240d9e00a235dd7d42cd61ae9912`)\n\n| **Area** | **Issue / Finding** | **Impact on Application** | **Likelihood of Exploitation** | **Risk Rating** | **Recommended Mitigation** |\n|----------|---------------------|---------------------------|--------------------------------|----------------|----------------------------|\n| **Direct vulnerable dependencies** | `ejs@1.0.0` (CVE\u20112022\u201129078) \u2013 template injection<br>`typeorm@0.2.24` (CVE\u20112022\u201133171) \u2013 SQL\u2011injection/privilege escalation<br>`mongoose@4.2.4` (CVE\u20112025\u201123061) \u2013 remote code execution / data loss | Code runs with these libraries at the top level, so any request that reaches a vulnerable API can trigger the exploit without additional chaining. | **High** \u2013 publicly disclosed exploits exist; no fix in current version. | **Critical** | \u2022 Upgrade to fixed versions (`ejs \u2265 3.1.7`, `typeorm \u2265 0.3.0`, `mongoose \u2265 6.13.6`).<br>\u2022 Run `npm audit fix` / `yarn upgrade` and lock the new versions in `package\u2011lock.json` / `yarn.lock`.<br>\u2022 Add automated dependency\u2011update bot (e.g., Renovate, Dependabot). |\n| **Transitive vulnerable dependencies** | `ejs@0.8.8` (via `ejs\u2011locals@1.0.2`) \u2013 same CVE\u20112022\u201129078<br>`handlebars@4.0.11/4.0.14` (via `hbs@4.0.4`) \u2013 CVE\u20112019\u201119919 (XSS) & CVE\u20112021\u201123369 (prototype pollution) | Attackers who can compromise or influence the intermediate packages (`ejs\u2011locals`, `hbs`) can reach the vulnerable code. The same CVE as the direct `ejs` version means a single fix can close both paths. | **Medium\u2011High** \u2013 transitive, but reachable through common",
+        "recommendation_agent_actions": "## \ud83c\udfaf\u202fPrioritized\u202f4\u2011step remediation plan for **`goof`** (commit `add14ba59e98240d9e00a235dd7d42cd61ae9912`)\n\n|\u202fStep |\u202fWhy it matters (risk) |\u202fWhat to do (exact\u202fnpm\u202f/\u202fgit\u202f/\u202fDocker commands) |\u202fHow to verify |\n|------|----------------------|-----------------------------------------------|----------------|\n| **1\ufe0f\u20e3\u202fEliminate all **direct** critical vulnerabilities** | Direct dependencies are loaded at the top of the import graph \u2013 an attacker can exploit them with a single request. \u202f| ```bash\\n# Upgrade the three vulnerable direct packages to the fixed versions\\nnpm install ejs@3.1.7 --save-exact          # fixes CVE\u20112022\u201129078\\nnpm install typeorm@0.3.0 --save-exact      # fixes CVE\u20112022\u201133171\\nnpm install mongoose@6.13.6 --save-exact    # fixes CVE\u20112025\u201123061\\n\\n# Regenerate a clean lock\u2011file (removes any stray old versions)\\nrm -f package-lock.json && npm i\\n``` | \u2022 `npm ls ejs` \u2192 should show `ejs@3.1.7` only.<br>\u2022 `npm ls typeorm` \u2192 `typeorm@0.3.0`.<br>\u2022",
         "risk_distribution": {
           "medium": 161,
           "high": 54,

@@ -174,3 +174,4 @@ def write_markdown_report(scan_result: ScanResult, path: str) -> None:
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(report_text, encoding="utf-8")
     print(f"[guardian] Executive Markdown report written to {path}")
+
